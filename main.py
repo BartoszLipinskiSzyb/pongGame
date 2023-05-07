@@ -1,4 +1,6 @@
-from PyQt5.QtWidgets import QApplication, QWidget, QPushButton
+import random
+
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel
 import sys
 import pygame
 
@@ -10,19 +12,63 @@ class constants():
     }
 
 class graphics():
-    def __init__(self):
+    def __init__(self, context):
+        self.context = context
+
         self.screenDimension = (1000, 800)
         self.windowScreenDimension = (1000, 800)
         self.fps = 120
         self.isFullscreen = False
         self.isMouseVisible = False
 
+    def toggleFullscreen(self):
+        self.isFullscreen = not self.isFullscreen
+        self.setFullscreen(self.isFullscreen)
+
+    def setFullscreen(self, isFullscreen):
+        if isFullscreen:
+            self.context.screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
+        else:
+            self.context.screen = pygame.display.set_mode(self.windowScreenDimension)
+        self.screenDimension = (pygame.display.Info().current_w, pygame.display.Info().current_h)
+
+    def initWindow(self):
+        self.setFullscreen(self.isFullscreen)
+        pygame.mouse.set_visible(self.isMouseVisible)
+        pygame.display.flip()
+
+class ball():
+    def __init__(self, context):
+        self.context = context
+
+        self.position = [self.context.graphics.screenDimension[0]/2, self.context.graphics.screenDimension[1]/2]
+        self.size = (20, 20)
+        self.speed = 0.4
+        self.direction = [[-1, 1][random.randint(0, 1)], [-1, 1][random.randint(0, 1)]]
+        self.normalizeDirectionVector()
+
+    def normalizeDirectionVector(self):
+        directionVectorLength = pow(pow(self.direction[0], 2) + pow(self.direction[1], 2), 0.5)
+        for i in range(2):
+            self.direction[i] /= directionVectorLength
+
+    def draw(self):
+        self.context.drawRect(constants.colors["white"], self.position[0] - self.size[0]/2, self.position[1] - self.size[1]/2, self.size[0], self.size[1])
+
 class game():
-    def __init__(self):
+    def __init__(self, context):
+        self.context = context
+
         self.running = True
 
-        self.graphics = graphics()
+        self.graphics = graphics(self)
         self.constants = constants()
+
+        self.ball = ball(self)
+
+        self.timeMultiplier = 1
+        self.speedZone = 300
+        self.speedUpTolerance = 0.3
 
         self.boardsPosition = [self.graphics.screenDimension[1] / 2, self.graphics.screenDimension[1] / 2]
         self.boardsSize = (20, 100)
@@ -31,18 +77,10 @@ class game():
         self.boardsDirection = [0, 0]
         self.boardsSpinMultiplier = [1, 1]
 
-        self.ballPosition = [500, 500]
-        self.ballSize = (20, 20)
-        self.ballSpeed = 0.4
-        self.ballDirection = [-1, 1]
+        self.fastImg = pygame.image.load("fast.png")
 
-        self.initWindow()
+        self.graphics.initWindow()
         self.gameLoop()
-
-    def initWindow(self):
-        self.setFullscreen(self.graphics.isFullscreen)
-        pygame.mouse.set_visible(self.graphics.isMouseVisible)
-        pygame.display.flip()
 
     def drawRect(self, color, x, y, w, h):
         pygame.draw.rect(surface=self.screen, color=color, rect=pygame.Rect(x, y, w, h))
@@ -51,53 +89,44 @@ class game():
         self.drawRect(constants.colors["white"], self.boardsMargin, self.boardsPosition[0] - self.boardsSize[1]/2, self.boardsSize[0], self.boardsSize[1])
         self.drawRect(constants.colors["white"], self.graphics.screenDimension[0] - self.boardsMargin - self.boardsSize[0], self.boardsPosition[1] - self.boardsSize[1]/2, self.boardsSize[0], self.boardsSize[1])
 
-    def drawBall(self):
-        self.drawRect(constants.colors["white"], self.ballPosition[0] - self.ballSize[0]/2, self.ballPosition[1] - self.ballSize[1]/2, self.ballSize[0], self.ballSize[1])
-
     def drawScreen(self):
         self.screen.fill(color=constants.colors["black"])
         self.drawBoards()
-        self.drawBall()
-        #self.drawRect(constants.colors["red"], self.ballPosition[0], self.ballPosition[1], 1, 1)
+        self.ball.draw()
+        if self.timeMultiplier > 2:
+            self.screen.blit(self.fastImg, (20, 20))
+        #self.drawRect(constants.colors["red"], self.ball.position[0], self.ball.position[1], 1, 1)
         pygame.display.update()
 
     def updatePositions(self, dt):
+        dt *= self.timeMultiplier
         # update both boards positions
         for i in range(2):
             self.boardsPosition[i] += self.boardsSpeed * self.boardsDirection[i] * dt
 
         # vertical ball collision with wall
-        if (self.ballPosition[1] < self.ballSize[1]/2 and self.ballDirection[1] < 0) or (self.ballPosition[1] > self.graphics.screenDimension[1] - self.ballSize[1]/2 and self.ballDirection[1] > 0):
-            self.ballDirection[1] *= -1
+        if (self.ball.position[1] < self.ball.size[1]/2 and self.ball.direction[1] < 0) or (self.ball.position[1] > self.graphics.screenDimension[1] - self.ball.size[1]/2 and self.ball.direction[1] > 0):
+            self.ball.direction[1] *= -1
 
         # horizontal ball collision with left board
-        if self.ballPosition[0] - self.ballSize[0]/2 <= self.boardsMargin + self.boardsSize[0] and self.ballDirection[0] < 0 and abs(self.ballPosition[1] - self.boardsPosition[0]) < self.boardsSize[1]/2:
-            self.ballDirection[0] *= -1
-            self.ballDirection[1] += self.boardsDirection[0] * self.boardsSpinMultiplier[0]
+        if self.ball.position[0] - self.ball.size[0]/2 <= self.boardsMargin + self.boardsSize[0] and self.ball.direction[0] < 0 and abs(self.ball.position[1] - self.boardsPosition[0]) < self.boardsSize[1]/2:
+            self.ball.direction[0] *= -1
+            self.ball.direction[1] += self.boardsDirection[0] * self.boardsSpinMultiplier[0]
+            self.ball.normalizeDirectionVector()
         # horizontal ball collision with right board
-        if self.ballPosition[0] + self.ballSize[0]/2 >= self.graphics.screenDimension[0] - (self.boardsMargin + self.boardsSize[0]) and self.ballDirection[0] > 0 and abs(self.ballPosition[1] - self.boardsPosition[1]) < self.boardsSize[1]/2:
-            self.ballDirection[0] *= -1
-            self.ballDirection[1] += self.boardsDirection[1] * self.boardsSpinMultiplier[1]
-
-        # direction vector normalization
-        directionVectorLength = pow(pow(self.ballDirection[0], 2) + pow(self.ballDirection[1], 2), 0.5)
-        for i in range(2):
-            self.ballDirection[i] /= directionVectorLength
+        if self.ball.position[0] + self.ball.size[0]/2 >= self.graphics.screenDimension[0] - (self.boardsMargin + self.boardsSize[0]) and self.ball.direction[0] > 0 and abs(self.ball.position[1] - self.boardsPosition[1]) < self.boardsSize[1]/2:
+            self.ball.direction[0] *= -1
+            self.ball.direction[1] += self.boardsDirection[1] * self.boardsSpinMultiplier[1]
+            self.ball.normalizeDirectionVector()
 
         # update ball position
         for i in range(2):
-            self.ballPosition[i] += self.ballDirection[i] * self.ballSpeed * dt
+            self.ball.position[i] += self.ball.direction[i] * self.ball.speed * dt
 
-    def setFullscreen(self, isFullscreen):
-        if isFullscreen:
-            self.screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
+        if self.speedZone < self.ball.position[0] < self.graphics.screenDimension[0] - self.speedZone and abs(self.ball.direction[0]) < self.speedUpTolerance:
+            self.timeMultiplier = 3
         else:
-            self.screen = pygame.display.set_mode(self.graphics.windowScreenDimension)
-        self.graphics.screenDimension = (pygame.display.Info().current_w, pygame.display.Info().current_h)
-
-    def toggleFullscreen(self):
-        self.graphics.isFullscreen = not self.graphics.isFullscreen
-        self.setFullscreen(self.graphics.isFullscreen)
+            self.timeMultiplier = 1
 
     def gameLoop(self):
         clock = pygame.time.Clock()
@@ -121,7 +150,7 @@ class game():
                         self.boardsDirection[0] += 1
 
                     if event.key == pygame.K_F11:
-                        self.toggleFullscreen()
+                        self.graphics.toggleFullscreen()
 
                 if event.type == pygame.KEYUP:
                     if event.key == pygame.K_UP:
@@ -135,7 +164,6 @@ class game():
                         self.boardsDirection[0] += -1
 
             self.updatePositions(dt)
-
             self.drawScreen()
 
         pygame.display.quit()
@@ -148,13 +176,20 @@ class launcher(QWidget):
     def __init__(self):
         super().__init__()
         self.initUI()
+
+    def startGame(self):
+        self.winner = QLabel(self)
+        self.winner.setGeometry(10, 50, 50, 30)
+
+        self.game = game(self)
+
     def initUI(self):
         self.setGeometry(100,100,self.width,self.height)
 
         self.btnPlay = QPushButton(self)
         self.btnPlay.setGeometry(10, 10, 50, 30)
         self.btnPlay.setText("Graj")
-        self.btnPlay.clicked.connect(lambda : game())
+        self.btnPlay.clicked.connect(self.startGame)
 
         self.show()
 
