@@ -1,0 +1,1403 @@
+[2023-04-14T23:48:49.382860 32464] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:49.382860 32464] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:49.382860 32464] Config: (default) base_dir = 
+[2023-04-14T23:48:49.382860 32464] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:49.382860 32464] Config: (default) compiler = 
+[2023-04-14T23:48:49.382860 32464] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:49.382860 32464] Config: (default) compiler_type = auto
+[2023-04-14T23:48:49.382860 32464] Config: (default) compression = true
+[2023-04-14T23:48:49.382860 32464] Config: (default) compression_level = 0
+[2023-04-14T23:48:49.382860 32464] Config: (default) cpp_extension = 
+[2023-04-14T23:48:49.382860 32464] Config: (default) debug = false
+[2023-04-14T23:48:49.382860 32464] Config: (default) debug_dir = 
+[2023-04-14T23:48:49.382860 32464] Config: (default) depend_mode = false
+[2023-04-14T23:48:49.382860 32464] Config: (default) direct_mode = true
+[2023-04-14T23:48:49.382860 32464] Config: (default) disable = false
+[2023-04-14T23:48:49.382860 32464] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:49.382860 32464] Config: (default) file_clone = false
+[2023-04-14T23:48:49.382860 32464] Config: (default) hard_link = false
+[2023-04-14T23:48:49.382860 32464] Config: (default) hash_dir = true
+[2023-04-14T23:48:49.382860 32464] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:49.382860 32464] Config: (default) ignore_options = 
+[2023-04-14T23:48:49.382860 32464] Config: (default) inode_cache = false
+[2023-04-14T23:48:49.382860 32464] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:49.382860 32464] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:49.382860 32464] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:49.382860 32464] Config: (default) max_files = 0
+[2023-04-14T23:48:49.382860 32464] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:49.382860 32464] Config: (default) namespace = 
+[2023-04-14T23:48:49.382860 32464] Config: (default) path = 
+[2023-04-14T23:48:49.382860 32464] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:49.382860 32464] Config: (default) prefix_command = 
+[2023-04-14T23:48:49.382860 32464] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:49.382860 32464] Config: (default) read_only = false
+[2023-04-14T23:48:49.382860 32464] Config: (default) read_only_direct = false
+[2023-04-14T23:48:49.382860 32464] Config: (default) recache = false
+[2023-04-14T23:48:49.382860 32464] Config: (default) reshare = false
+[2023-04-14T23:48:49.382860 32464] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:49.382860 32464] Config: (default) secondary_storage = 
+[2023-04-14T23:48:49.382860 32464] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:49.382860 32464] Config: (default) stats = true
+[2023-04-14T23:48:49.382860 32464] Config: (default) stats_log = 
+[2023-04-14T23:48:49.382860 32464] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:49.382860 32464] Config: (default) umask = 
+[2023-04-14T23:48:49.382860 32464] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src __constants.c
+[2023-04-14T23:48:49.397820 32464] Hostname: Optiplex5050
+[2023-04-14T23:48:49.397820 32464] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:49.397820 32464] Compiler type: gcc
+[2023-04-14T23:48:49.403806 32464] Source file: __constants.c
+[2023-04-14T23:48:49.403806 32464] Object file: __constants.o
+[2023-04-14T23:48:49.404801 32464] Trying direct lookup
+[2023-04-14T23:48:49.404801 32464] Retrieved 4f78ivcal7q75j82ubb4e9u0ekk7fei72 from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/f/78ivcal7q75j82ubb4e9u0ekk7fei72M)
+[2023-04-14T23:48:49.405799 32464] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/f/78ivcal7q75j82ubb4e9u0ekk7fei72M
+[2023-04-14T23:48:49.420759 42456] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:49.420759 42456] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:49.420759 42456] Config: (default) base_dir = 
+[2023-04-14T23:48:49.420759 42456] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:49.420759 42456] Config: (default) compiler = 
+[2023-04-14T23:48:49.420759 42456] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:49.420759 42456] Config: (default) compiler_type = auto
+[2023-04-14T23:48:49.420759 42456] Config: (default) compression = true
+[2023-04-14T23:48:49.420759 42456] Config: (default) compression_level = 0
+[2023-04-14T23:48:49.420759 42456] Config: (default) cpp_extension = 
+[2023-04-14T23:48:49.420759 42456] Config: (default) debug = false
+[2023-04-14T23:48:49.420759 42456] Config: (default) debug_dir = 
+[2023-04-14T23:48:49.420759 42456] Config: (default) depend_mode = false
+[2023-04-14T23:48:49.420759 42456] Config: (default) direct_mode = true
+[2023-04-14T23:48:49.420759 42456] Config: (default) disable = false
+[2023-04-14T23:48:49.420759 42456] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:49.420759 42456] Config: (default) file_clone = false
+[2023-04-14T23:48:49.420759 42456] Config: (default) hard_link = false
+[2023-04-14T23:48:49.420759 42456] Config: (default) hash_dir = true
+[2023-04-14T23:48:49.420759 42456] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:49.420759 42456] Config: (default) ignore_options = 
+[2023-04-14T23:48:49.420759 42456] Config: (default) inode_cache = false
+[2023-04-14T23:48:49.420759 42456] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:49.420759 42456] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:49.420759 42456] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:49.420759 42456] Config: (default) max_files = 0
+[2023-04-14T23:48:49.420759 42456] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:49.420759 42456] Config: (default) namespace = 
+[2023-04-14T23:48:49.420759 42456] Config: (default) path = 
+[2023-04-14T23:48:49.420759 42456] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:49.420759 42456] Config: (default) prefix_command = 
+[2023-04-14T23:48:49.420759 42456] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:49.420759 42456] Config: (default) read_only = false
+[2023-04-14T23:48:49.420759 42456] Config: (default) read_only_direct = false
+[2023-04-14T23:48:49.420759 42456] Config: (default) recache = false
+[2023-04-14T23:48:49.420759 42456] Config: (default) reshare = false
+[2023-04-14T23:48:49.420759 42456] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:49.420759 42456] Config: (default) secondary_storage = 
+[2023-04-14T23:48:49.420759 42456] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:49.420759 42456] Config: (default) stats = true
+[2023-04-14T23:48:49.420759 42456] Config: (default) stats_log = 
+[2023-04-14T23:48:49.420759 42456] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:49.420759 42456] Config: (default) umask = 
+[2023-04-14T23:48:49.420759 42456] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o __helpers.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src __helpers.c
+[2023-04-14T23:48:49.430732 42456] Hostname: Optiplex5050
+[2023-04-14T23:48:49.430732 42456] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:49.430732 42456] Compiler type: gcc
+[2023-04-14T23:48:49.431729 42456] Source file: __helpers.c
+[2023-04-14T23:48:49.431729 42456] Object file: __helpers.o
+[2023-04-14T23:48:49.431729 42456] Trying direct lookup
+[2023-04-14T23:48:49.443697 42456] Retrieved 21a2fn2qr8ko3ngpm8fgah771nte0mfiu from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/1/a2fn2qr8ko3ngpm8fgah771nte0mfiuM)
+[2023-04-14T23:48:49.443697 42456] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/1/a2fn2qr8ko3ngpm8fgah771nte0mfiuM
+[2023-04-14T23:48:49.459655 21628] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:49.459655 21628] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:49.459655 21628] Config: (default) base_dir = 
+[2023-04-14T23:48:49.459655 21628] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:49.459655 21628] Config: (default) compiler = 
+[2023-04-14T23:48:49.459655 21628] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:49.459655 21628] Config: (default) compiler_type = auto
+[2023-04-14T23:48:49.459655 21628] Config: (default) compression = true
+[2023-04-14T23:48:49.459655 21628] Config: (default) compression_level = 0
+[2023-04-14T23:48:49.459655 21628] Config: (default) cpp_extension = 
+[2023-04-14T23:48:49.459655 21628] Config: (default) debug = false
+[2023-04-14T23:48:49.459655 21628] Config: (default) debug_dir = 
+[2023-04-14T23:48:49.459655 21628] Config: (default) depend_mode = false
+[2023-04-14T23:48:49.459655 21628] Config: (default) direct_mode = true
+[2023-04-14T23:48:49.459655 21628] Config: (default) disable = false
+[2023-04-14T23:48:49.459655 21628] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:49.459655 21628] Config: (default) file_clone = false
+[2023-04-14T23:48:49.459655 21628] Config: (default) hard_link = false
+[2023-04-14T23:48:49.459655 21628] Config: (default) hash_dir = true
+[2023-04-14T23:48:49.459655 21628] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:49.459655 21628] Config: (default) ignore_options = 
+[2023-04-14T23:48:49.459655 21628] Config: (default) inode_cache = false
+[2023-04-14T23:48:49.459655 21628] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:49.459655 21628] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:49.459655 21628] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:49.459655 21628] Config: (default) max_files = 0
+[2023-04-14T23:48:49.459655 21628] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:49.459655 21628] Config: (default) namespace = 
+[2023-04-14T23:48:49.459655 21628] Config: (default) path = 
+[2023-04-14T23:48:49.459655 21628] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:49.459655 21628] Config: (default) prefix_command = 
+[2023-04-14T23:48:49.459655 21628] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:49.459655 21628] Config: (default) read_only = false
+[2023-04-14T23:48:49.459655 21628] Config: (default) read_only_direct = false
+[2023-04-14T23:48:49.459655 21628] Config: (default) recache = false
+[2023-04-14T23:48:49.459655 21628] Config: (default) reshare = false
+[2023-04-14T23:48:49.459655 21628] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:49.459655 21628] Config: (default) secondary_storage = 
+[2023-04-14T23:48:49.459655 21628] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:49.459655 21628] Config: (default) stats = true
+[2023-04-14T23:48:49.459655 21628] Config: (default) stats_log = 
+[2023-04-14T23:48:49.459655 21628] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:49.459655 21628] Config: (default) umask = 
+[2023-04-14T23:48:49.459655 21628] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o __loader.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src __loader.c
+[2023-04-14T23:48:49.465639 21628] Hostname: Optiplex5050
+[2023-04-14T23:48:49.466636 21628] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:49.466636 21628] Compiler type: gcc
+[2023-04-14T23:48:49.466636 21628] Source file: __loader.c
+[2023-04-14T23:48:49.466636 21628] Object file: __loader.o
+[2023-04-14T23:48:49.466636 21628] Trying direct lookup
+[2023-04-14T23:48:49.467633 21628] Retrieved 981dv63o9e3p22ofkbe5rr66i673qck60 from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/8/1dv63o9e3p22ofkbe5rr66i673qck60M)
+[2023-04-14T23:48:49.467633 21628] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/8/1dv63o9e3p22ofkbe5rr66i673qck60M
+[2023-04-14T23:48:49.521490 21628] Got result key from manifest
+[2023-04-14T23:48:49.521490 21628] Retrieved 3515hb0trd65t1flm75hrvltaf70fhnjk from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/15hb0trd65t1flm75hrvltaf70fhnjkR)
+[2023-04-14T23:48:49.522487 21628] Reading embedded entry #0 .o (30986 bytes)
+[2023-04-14T23:48:49.522487 21628] Writing to __loader.o
+[2023-04-14T23:48:49.523484 21628] Succeeded getting cached result
+[2023-04-14T23:48:49.523484 21628] Result: direct_cache_hit
+[2023-04-14T23:48:49.523484 21628] Result: primary_storage_hit
+[2023-04-14T23:48:49.523484 21628] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/c/stats.lock
+[2023-04-14T23:48:49.524482 21660] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:49.524482 21660] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:49.524482 21660] Config: (default) base_dir = 
+[2023-04-14T23:48:49.524482 21660] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:49.524482 21660] Config: (default) compiler = 
+[2023-04-14T23:48:49.524482 21660] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:49.524482 21660] Config: (default) compiler_type = auto
+[2023-04-14T23:48:49.524482 21660] Config: (default) compression = true
+[2023-04-14T23:48:49.524482 21660] Config: (default) compression_level = 0
+[2023-04-14T23:48:49.524482 21660] Config: (default) cpp_extension = 
+[2023-04-14T23:48:49.524482 21660] Config: (default) debug = false
+[2023-04-14T23:48:49.524482 21660] Config: (default) debug_dir = 
+[2023-04-14T23:48:49.524482 21660] Config: (default) depend_mode = false
+[2023-04-14T23:48:49.524482 21660] Config: (default) direct_mode = true
+[2023-04-14T23:48:49.524482 21660] Config: (default) disable = false
+[2023-04-14T23:48:49.524482 21660] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:49.524482 21660] Config: (default) file_clone = false
+[2023-04-14T23:48:49.524482 21660] Config: (default) hard_link = false
+[2023-04-14T23:48:49.524482 21660] Config: (default) hash_dir = true
+[2023-04-14T23:48:49.524482 21660] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:49.524482 21660] Config: (default) ignore_options = 
+[2023-04-14T23:48:49.524482 21660] Config: (default) inode_cache = false
+[2023-04-14T23:48:49.524482 21660] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:49.524482 21660] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:49.524482 21660] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:49.524482 21660] Config: (default) max_files = 0
+[2023-04-14T23:48:49.524482 21660] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:49.524482 21660] Config: (default) namespace = 
+[2023-04-14T23:48:49.524482 21660] Config: (default) path = 
+[2023-04-14T23:48:49.524482 21660] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:49.524482 21660] Config: (default) prefix_command = 
+[2023-04-14T23:48:49.524482 21660] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:49.524482 21660] Config: (default) read_only = false
+[2023-04-14T23:48:49.524482 21660] Config: (default) read_only_direct = false
+[2023-04-14T23:48:49.524482 21660] Config: (default) recache = false
+[2023-04-14T23:48:49.524482 21660] Config: (default) reshare = false
+[2023-04-14T23:48:49.524482 21660] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:49.524482 21660] Config: (default) secondary_storage = 
+[2023-04-14T23:48:49.524482 21660] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:49.524482 21660] Config: (default) stats = true
+[2023-04-14T23:48:49.524482 21660] Config: (default) stats_log = 
+[2023-04-14T23:48:49.524482 21660] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:49.524482 21660] Config: (default) umask = 
+[2023-04-14T23:48:49.524482 21660] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.PyQt5-preLoad.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src module.PyQt5-preLoad.c
+[2023-04-14T23:48:49.541436 21660] Hostname: Optiplex5050
+[2023-04-14T23:48:49.541436 21660] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:49.541436 21660] Compiler type: gcc
+[2023-04-14T23:48:49.541436 21628] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/c/stats.lock
+[2023-04-14T23:48:49.543430 21660] Source file: module.PyQt5-preLoad.c
+[2023-04-14T23:48:49.543430 21660] Object file: module.PyQt5-preLoad.o
+[2023-04-14T23:48:49.544428 21660] Trying direct lookup
+[2023-04-14T23:48:49.545425 21660] Retrieved 25974hqaa6qjjplol6d3q0768qph72i2i from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/5/974hqaa6qjjplol6d3q0768qph72i2iM)
+[2023-04-14T23:48:49.548417 21660] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/5/974hqaa6qjjplol6d3q0768qph72i2iM
+[2023-04-14T23:48:49.616236 42456] Got result key from manifest
+[2023-04-14T23:48:49.617234 42456] Retrieved 24ddjd7j693rn1opp93b4gsa3qbqirr2k from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/4/ddjd7j693rn1opp93b4gsa3qbqirr2kR)
+[2023-04-14T23:48:49.617234 42456] Reading embedded entry #0 .o (466 bytes)
+[2023-04-14T23:48:49.617234 42456] Writing to __helpers.o
+[2023-04-14T23:48:49.618232 42456] Succeeded getting cached result
+[2023-04-14T23:48:49.618232 42456] Result: direct_cache_hit
+[2023-04-14T23:48:49.618232 42456] Result: primary_storage_hit
+[2023-04-14T23:48:49.618232 42456] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/8/stats.lock
+[2023-04-14T23:48:49.624216 32464] Got result key from manifest
+[2023-04-14T23:48:49.624216 32464] Retrieved 074dl45ks7vtsfkalqv4vqr66c7e5vadu from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/7/4dl45ks7vtsfkalqv4vqr66c7e5vaduR)
+[2023-04-14T23:48:49.625212 32464] Reading embedded entry #0 .o (2821 bytes)
+[2023-04-14T23:48:49.625212 32464] Writing to __constants.o
+[2023-04-14T23:48:49.625212 32464] Succeeded getting cached result
+[2023-04-14T23:48:49.625212 32464] Result: direct_cache_hit
+[2023-04-14T23:48:49.625212 32464] Result: primary_storage_hit
+[2023-04-14T23:48:49.626210 32464] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/0/stats.lock
+[2023-04-14T23:48:49.627206 32464] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/0/stats.lock
+[2023-04-14T23:48:49.629202 42456] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/8/stats.lock
+[2023-04-14T23:48:49.730929 39336] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:49.730929 39336] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:49.730929 39336] Config: (default) base_dir = 
+[2023-04-14T23:48:49.730929 39336] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:49.730929 39336] Config: (default) compiler = 
+[2023-04-14T23:48:49.730929 39336] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:49.730929 39336] Config: (default) compiler_type = auto
+[2023-04-14T23:48:49.730929 39336] Config: (default) compression = true
+[2023-04-14T23:48:49.730929 39336] Config: (default) compression_level = 0
+[2023-04-14T23:48:49.730929 39336] Config: (default) cpp_extension = 
+[2023-04-14T23:48:49.730929 39336] Config: (default) debug = false
+[2023-04-14T23:48:49.730929 39336] Config: (default) debug_dir = 
+[2023-04-14T23:48:49.730929 39336] Config: (default) depend_mode = false
+[2023-04-14T23:48:49.730929 39336] Config: (default) direct_mode = true
+[2023-04-14T23:48:49.730929 39336] Config: (default) disable = false
+[2023-04-14T23:48:49.730929 39336] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:49.730929 39336] Config: (default) file_clone = false
+[2023-04-14T23:48:49.730929 39336] Config: (default) hard_link = false
+[2023-04-14T23:48:49.730929 39336] Config: (default) hash_dir = true
+[2023-04-14T23:48:49.730929 39336] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:49.730929 39336] Config: (default) ignore_options = 
+[2023-04-14T23:48:49.730929 39336] Config: (default) inode_cache = false
+[2023-04-14T23:48:49.730929 39336] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:49.730929 39336] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:49.730929 39336] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:49.730929 39336] Config: (default) max_files = 0
+[2023-04-14T23:48:49.730929 39336] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:49.730929 39336] Config: (default) namespace = 
+[2023-04-14T23:48:49.730929 39336] Config: (default) path = 
+[2023-04-14T23:48:49.730929 39336] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:49.730929 39336] Config: (default) prefix_command = 
+[2023-04-14T23:48:49.730929 39336] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:49.730929 39336] Config: (default) read_only = false
+[2023-04-14T23:48:49.730929 39336] Config: (default) read_only_direct = false
+[2023-04-14T23:48:49.730929 39336] Config: (default) recache = false
+[2023-04-14T23:48:49.730929 39336] Config: (default) reshare = false
+[2023-04-14T23:48:49.730929 39336] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:49.730929 39336] Config: (default) secondary_storage = 
+[2023-04-14T23:48:49.730929 39336] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:49.730929 39336] Config: (default) stats = true
+[2023-04-14T23:48:49.730929 39336] Config: (default) stats_log = 
+[2023-04-14T23:48:49.730929 39336] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:49.730929 39336] Config: (default) umask = 
+[2023-04-14T23:48:49.730929 39336] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.PyQt5.QtCore-postLoad.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src module.PyQt5.QtCore-postLoad.c
+[2023-04-14T23:48:49.742898 39336] Hostname: Optiplex5050
+[2023-04-14T23:48:49.742898 39336] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:49.742898 39336] Compiler type: gcc
+[2023-04-14T23:48:49.743895 39336] Source file: module.PyQt5.QtCore-postLoad.c
+[2023-04-14T23:48:49.743895 39336] Object file: module.PyQt5.QtCore-postLoad.o
+[2023-04-14T23:48:49.743895 39336] Trying direct lookup
+[2023-04-14T23:48:49.743895 39336] Retrieved 57a84s2m5vvs4it07mp7rnq13cnm17pc0 from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/7/a84s2m5vvs4it07mp7rnq13cnm17pc0M)
+[2023-04-14T23:48:49.744891 39336] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/7/a84s2m5vvs4it07mp7rnq13cnm17pc0M
+[2023-04-14T23:48:49.771820 37192] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:49.771820 37192] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:49.771820 37192] Config: (default) base_dir = 
+[2023-04-14T23:48:49.771820 37192] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:49.771820 37192] Config: (default) compiler = 
+[2023-04-14T23:48:49.771820 37192] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:49.771820 37192] Config: (default) compiler_type = auto
+[2023-04-14T23:48:49.771820 37192] Config: (default) compression = true
+[2023-04-14T23:48:49.771820 37192] Config: (default) compression_level = 0
+[2023-04-14T23:48:49.771820 37192] Config: (default) cpp_extension = 
+[2023-04-14T23:48:49.771820 37192] Config: (default) debug = false
+[2023-04-14T23:48:49.771820 37192] Config: (default) debug_dir = 
+[2023-04-14T23:48:49.771820 37192] Config: (default) depend_mode = false
+[2023-04-14T23:48:49.771820 37192] Config: (default) direct_mode = true
+[2023-04-14T23:48:49.771820 37192] Config: (default) disable = false
+[2023-04-14T23:48:49.771820 37192] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:49.771820 37192] Config: (default) file_clone = false
+[2023-04-14T23:48:49.771820 37192] Config: (default) hard_link = false
+[2023-04-14T23:48:49.771820 37192] Config: (default) hash_dir = true
+[2023-04-14T23:48:49.771820 37192] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:49.771820 37192] Config: (default) ignore_options = 
+[2023-04-14T23:48:49.771820 37192] Config: (default) inode_cache = false
+[2023-04-14T23:48:49.771820 37192] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:49.771820 37192] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:49.771820 37192] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:49.771820 37192] Config: (default) max_files = 0
+[2023-04-14T23:48:49.771820 37192] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:49.771820 37192] Config: (default) namespace = 
+[2023-04-14T23:48:49.771820 37192] Config: (default) path = 
+[2023-04-14T23:48:49.771820 37192] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:49.771820 37192] Config: (default) prefix_command = 
+[2023-04-14T23:48:49.771820 37192] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:49.771820 37192] Config: (default) read_only = false
+[2023-04-14T23:48:49.771820 37192] Config: (default) read_only_direct = false
+[2023-04-14T23:48:49.771820 37192] Config: (default) recache = false
+[2023-04-14T23:48:49.771820 37192] Config: (default) reshare = false
+[2023-04-14T23:48:49.771820 37192] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:49.771820 37192] Config: (default) secondary_storage = 
+[2023-04-14T23:48:49.771820 37192] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:49.771820 37192] Config: (default) stats = true
+[2023-04-14T23:48:49.771820 37192] Config: (default) stats_log = 
+[2023-04-14T23:48:49.771820 37192] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:49.771820 37192] Config: (default) umask = 
+[2023-04-14T23:48:49.771820 37192] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.PyQt5.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src module.PyQt5.c
+[2023-04-14T23:48:49.780796 37192] Hostname: Optiplex5050
+[2023-04-14T23:48:49.780796 37192] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:49.780796 37192] Compiler type: gcc
+[2023-04-14T23:48:49.781793 37192] Source file: module.PyQt5.c
+[2023-04-14T23:48:49.781793 37192] Object file: module.PyQt5.o
+[2023-04-14T23:48:49.781793 37192] Trying direct lookup
+[2023-04-14T23:48:49.782791 37192] Retrieved f3e0tl68fhi70kvr136gp0s8hndqc2jfo from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/3/e0tl68fhi70kvr136gp0s8hndqc2jfoM)
+[2023-04-14T23:48:49.789772 37192] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/3/e0tl68fhi70kvr136gp0s8hndqc2jfoM
+[2023-04-14T23:48:49.793761 21660] Got result key from manifest
+[2023-04-14T23:48:49.793761 21660] Retrieved 5575ch2j0hfn504katjkoip5s1a2bcv48 from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/5/75ch2j0hfn504katjkoip5s1a2bcv48R)
+[2023-04-14T23:48:49.793761 21660] Reading embedded entry #0 .o (8692 bytes)
+[2023-04-14T23:48:49.793761 21660] Writing to module.PyQt5-preLoad.o
+[2023-04-14T23:48:49.794759 21660] Succeeded getting cached result
+[2023-04-14T23:48:49.794759 21660] Result: direct_cache_hit
+[2023-04-14T23:48:49.794759 21660] Result: primary_storage_hit
+[2023-04-14T23:48:49.794759 21660] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/c/stats.lock
+[2023-04-14T23:48:49.843636 21660] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/c/stats.lock
+[2023-04-14T23:48:49.849611 24080] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:49.849611 24080] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:49.849611 24080] Config: (default) base_dir = 
+[2023-04-14T23:48:49.849611 24080] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:49.849611 24080] Config: (default) compiler = 
+[2023-04-14T23:48:49.849611 24080] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:49.849611 24080] Config: (default) compiler_type = auto
+[2023-04-14T23:48:49.849611 24080] Config: (default) compression = true
+[2023-04-14T23:48:49.849611 24080] Config: (default) compression_level = 0
+[2023-04-14T23:48:49.849611 24080] Config: (default) cpp_extension = 
+[2023-04-14T23:48:49.849611 24080] Config: (default) debug = false
+[2023-04-14T23:48:49.849611 24080] Config: (default) debug_dir = 
+[2023-04-14T23:48:49.849611 24080] Config: (default) depend_mode = false
+[2023-04-14T23:48:49.849611 24080] Config: (default) direct_mode = true
+[2023-04-14T23:48:49.849611 24080] Config: (default) disable = false
+[2023-04-14T23:48:49.849611 24080] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:49.849611 24080] Config: (default) file_clone = false
+[2023-04-14T23:48:49.849611 24080] Config: (default) hard_link = false
+[2023-04-14T23:48:49.849611 24080] Config: (default) hash_dir = true
+[2023-04-14T23:48:49.849611 24080] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:49.849611 24080] Config: (default) ignore_options = 
+[2023-04-14T23:48:49.849611 24080] Config: (default) inode_cache = false
+[2023-04-14T23:48:49.849611 24080] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:49.849611 24080] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:49.849611 24080] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:49.849611 24080] Config: (default) max_files = 0
+[2023-04-14T23:48:49.849611 24080] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:49.849611 24080] Config: (default) namespace = 
+[2023-04-14T23:48:49.849611 24080] Config: (default) path = 
+[2023-04-14T23:48:49.849611 24080] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:49.849611 24080] Config: (default) prefix_command = 
+[2023-04-14T23:48:49.849611 24080] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:49.849611 24080] Config: (default) read_only = false
+[2023-04-14T23:48:49.849611 24080] Config: (default) read_only_direct = false
+[2023-04-14T23:48:49.849611 24080] Config: (default) recache = false
+[2023-04-14T23:48:49.849611 24080] Config: (default) reshare = false
+[2023-04-14T23:48:49.849611 24080] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:49.849611 24080] Config: (default) secondary_storage = 
+[2023-04-14T23:48:49.849611 24080] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:49.849611 24080] Config: (default) stats = true
+[2023-04-14T23:48:49.849611 24080] Config: (default) stats_log = 
+[2023-04-14T23:48:49.849611 24080] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:49.849611 24080] Config: (default) umask = 
+[2023-04-14T23:48:49.849611 24080] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src module.__main__.c
+[2023-04-14T23:48:49.875543 24080] Hostname: Optiplex5050
+[2023-04-14T23:48:49.875543 24080] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:49.875543 24080] Compiler type: gcc
+[2023-04-14T23:48:49.876547 24080] Source file: module.__main__.c
+[2023-04-14T23:48:49.876547 24080] Object file: module.__main__.o
+[2023-04-14T23:48:49.877537 24080] Trying direct lookup
+[2023-04-14T23:48:49.878534 24080] Retrieved 3ea4ptepakra7tfdnpja1t0vk06us0mim from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/e/a4ptepakra7tfdnpja1t0vk06us0mimM)
+[2023-04-14T23:48:49.889507 24080] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/e/a4ptepakra7tfdnpja1t0vk06us0mimM
+[2023-04-14T23:48:49.892505 39336] Got result key from manifest
+[2023-04-14T23:48:49.892505 39336] Retrieved 3707c538ho63nn1h83f62s9jvj11pj5fo from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/7/07c538ho63nn1h83f62s9jvj11pj5foR)
+[2023-04-14T23:48:49.897483 39336] Reading embedded entry #0 .o (9477 bytes)
+[2023-04-14T23:48:49.897483 39336] Writing to module.PyQt5.QtCore-postLoad.o
+[2023-04-14T23:48:49.897483 39336] Succeeded getting cached result
+[2023-04-14T23:48:49.898481 39336] Result: direct_cache_hit
+[2023-04-14T23:48:49.898481 39336] Result: primary_storage_hit
+[2023-04-14T23:48:49.898481 39336] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/8/stats.lock
+[2023-04-14T23:48:49.913441 37192] Got result key from manifest
+[2023-04-14T23:48:49.913441 37192] Retrieved b30e0cj0nu5e4jq42gaso1905u03vc3rq from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/3/0e0cj0nu5e4jq42gaso1905u03vc3rqR)
+[2023-04-14T23:48:49.913441 37192] Reading embedded entry #0 .o (22032 bytes)
+[2023-04-14T23:48:49.913441 37192] Writing to module.PyQt5.o
+[2023-04-14T23:48:49.914438 37192] Succeeded getting cached result
+[2023-04-14T23:48:49.914438 37192] Result: direct_cache_hit
+[2023-04-14T23:48:49.914438 37192] Result: primary_storage_hit
+[2023-04-14T23:48:49.914438 37192] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/8/stats.lock
+[2023-04-14T23:48:49.916433 37192] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/8/stats.lock
+[2023-04-14T23:48:49.931393 39336] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/8/stats.lock
+[2023-04-14T23:48:49.972284 36408] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:49.972284 36408] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:49.972284 36408] Config: (default) base_dir = 
+[2023-04-14T23:48:49.972284 36408] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:49.972284 36408] Config: (default) compiler = 
+[2023-04-14T23:48:49.972284 36408] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:49.972284 36408] Config: (default) compiler_type = auto
+[2023-04-14T23:48:49.972284 36408] Config: (default) compression = true
+[2023-04-14T23:48:49.972284 36408] Config: (default) compression_level = 0
+[2023-04-14T23:48:49.972284 36408] Config: (default) cpp_extension = 
+[2023-04-14T23:48:49.972284 36408] Config: (default) debug = false
+[2023-04-14T23:48:49.972284 36408] Config: (default) debug_dir = 
+[2023-04-14T23:48:49.972284 36408] Config: (default) depend_mode = false
+[2023-04-14T23:48:49.972284 36408] Config: (default) direct_mode = true
+[2023-04-14T23:48:49.972284 36408] Config: (default) disable = false
+[2023-04-14T23:48:49.972284 36408] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:49.972284 36408] Config: (default) file_clone = false
+[2023-04-14T23:48:49.972284 36408] Config: (default) hard_link = false
+[2023-04-14T23:48:49.972284 36408] Config: (default) hash_dir = true
+[2023-04-14T23:48:49.972284 36408] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:49.972284 36408] Config: (default) ignore_options = 
+[2023-04-14T23:48:49.972284 36408] Config: (default) inode_cache = false
+[2023-04-14T23:48:49.972284 36408] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:49.972284 36408] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:49.972284 36408] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:49.972284 36408] Config: (default) max_files = 0
+[2023-04-14T23:48:49.972284 36408] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:49.972284 36408] Config: (default) namespace = 
+[2023-04-14T23:48:49.972284 36408] Config: (default) path = 
+[2023-04-14T23:48:49.972284 36408] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:49.972284 36408] Config: (default) prefix_command = 
+[2023-04-14T23:48:49.972284 36408] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:49.972284 36408] Config: (default) read_only = false
+[2023-04-14T23:48:49.972284 36408] Config: (default) read_only_direct = false
+[2023-04-14T23:48:49.972284 36408] Config: (default) recache = false
+[2023-04-14T23:48:49.972284 36408] Config: (default) reshare = false
+[2023-04-14T23:48:49.972284 36408] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:49.972284 36408] Config: (default) secondary_storage = 
+[2023-04-14T23:48:49.972284 36408] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:49.972284 36408] Config: (default) stats = true
+[2023-04-14T23:48:49.972284 36408] Config: (default) stats_log = 
+[2023-04-14T23:48:49.972284 36408] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:49.972284 36408] Config: (default) umask = 
+[2023-04-14T23:48:49.972284 36408] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.pkg_resources-postLoad.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src module.pkg_resources-postLoad.c
+[2023-04-14T23:48:49.979265 36408] Hostname: Optiplex5050
+[2023-04-14T23:48:49.979265 36408] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:49.979265 36408] Compiler type: gcc
+[2023-04-14T23:48:49.979265 36408] Source file: module.pkg_resources-postLoad.c
+[2023-04-14T23:48:49.979265 36408] Object file: module.pkg_resources-postLoad.o
+[2023-04-14T23:48:49.979265 36408] Trying direct lookup
+[2023-04-14T23:48:49.980262 36408] Retrieved 57bcvsq7eu84jvomm7t567lr0s9rvrnkc from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/7/bcvsq7eu84jvomm7t567lr0s9rvrnkcM)
+[2023-04-14T23:48:49.980262 36408] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/7/bcvsq7eu84jvomm7t567lr0s9rvrnkcM
+[2023-04-14T23:48:50.032123 24080] Got result key from manifest
+[2023-04-14T23:48:50.033125 24080] Retrieved 708ej9e7842ptg05u9fr9k3u70dmrb3hq from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/0/8ej9e7842ptg05u9fr9k3u70dmrb3hqR)
+[2023-04-14T23:48:50.040102 24080] Reading embedded entry #0 .o (100766 bytes)
+[2023-04-14T23:48:50.040102 24080] Writing to module.__main__.o
+[2023-04-14T23:48:50.044092 24080] Succeeded getting cached result
+[2023-04-14T23:48:50.044092 24080] Result: direct_cache_hit
+[2023-04-14T23:48:50.045089 24080] Result: primary_storage_hit
+[2023-04-14T23:48:50.046086 24080] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2023-04-14T23:48:50.047084 24080] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2023-04-14T23:48:50.082987 41632] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:50.082987 41632] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:50.082987 41632] Config: (default) base_dir = 
+[2023-04-14T23:48:50.082987 41632] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:50.082987 41632] Config: (default) compiler = 
+[2023-04-14T23:48:50.082987 41632] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:50.082987 41632] Config: (default) compiler_type = auto
+[2023-04-14T23:48:50.082987 41632] Config: (default) compression = true
+[2023-04-14T23:48:50.082987 41632] Config: (default) compression_level = 0
+[2023-04-14T23:48:50.082987 41632] Config: (default) cpp_extension = 
+[2023-04-14T23:48:50.082987 41632] Config: (default) debug = false
+[2023-04-14T23:48:50.082987 41632] Config: (default) debug_dir = 
+[2023-04-14T23:48:50.082987 41632] Config: (default) depend_mode = false
+[2023-04-14T23:48:50.082987 41632] Config: (default) direct_mode = true
+[2023-04-14T23:48:50.082987 41632] Config: (default) disable = false
+[2023-04-14T23:48:50.082987 41632] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:50.082987 41632] Config: (default) file_clone = false
+[2023-04-14T23:48:50.082987 41632] Config: (default) hard_link = false
+[2023-04-14T23:48:50.082987 41632] Config: (default) hash_dir = true
+[2023-04-14T23:48:50.082987 41632] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:50.082987 41632] Config: (default) ignore_options = 
+[2023-04-14T23:48:50.082987 41632] Config: (default) inode_cache = false
+[2023-04-14T23:48:50.082987 41632] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:50.082987 41632] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:50.082987 41632] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:50.082987 41632] Config: (default) max_files = 0
+[2023-04-14T23:48:50.082987 41632] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:50.082987 41632] Config: (default) namespace = 
+[2023-04-14T23:48:50.082987 41632] Config: (default) path = 
+[2023-04-14T23:48:50.082987 41632] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:50.082987 41632] Config: (default) prefix_command = 
+[2023-04-14T23:48:50.082987 41632] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:50.082987 41632] Config: (default) read_only = false
+[2023-04-14T23:48:50.082987 41632] Config: (default) read_only_direct = false
+[2023-04-14T23:48:50.082987 41632] Config: (default) recache = false
+[2023-04-14T23:48:50.082987 41632] Config: (default) reshare = false
+[2023-04-14T23:48:50.082987 41632] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:50.082987 41632] Config: (default) secondary_storage = 
+[2023-04-14T23:48:50.082987 41632] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:50.082987 41632] Config: (default) stats = true
+[2023-04-14T23:48:50.082987 41632] Config: (default) stats_log = 
+[2023-04-14T23:48:50.082987 41632] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:50.082987 41632] Config: (default) umask = 
+[2023-04-14T23:48:50.082987 41632] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.pygame.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src module.pygame.c
+[2023-04-14T23:48:50.083986 31016] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:50.083986 31016] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:50.083986 31016] Config: (default) base_dir = 
+[2023-04-14T23:48:50.083986 31016] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:50.083986 31016] Config: (default) compiler = 
+[2023-04-14T23:48:50.083986 31016] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:50.083986 31016] Config: (default) compiler_type = auto
+[2023-04-14T23:48:50.083986 31016] Config: (default) compression = true
+[2023-04-14T23:48:50.083986 31016] Config: (default) compression_level = 0
+[2023-04-14T23:48:50.083986 31016] Config: (default) cpp_extension = 
+[2023-04-14T23:48:50.083986 31016] Config: (default) debug = false
+[2023-04-14T23:48:50.083986 31016] Config: (default) debug_dir = 
+[2023-04-14T23:48:50.083986 31016] Config: (default) depend_mode = false
+[2023-04-14T23:48:50.083986 31016] Config: (default) direct_mode = true
+[2023-04-14T23:48:50.083986 31016] Config: (default) disable = false
+[2023-04-14T23:48:50.083986 31016] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:50.083986 31016] Config: (default) file_clone = false
+[2023-04-14T23:48:50.083986 31016] Config: (default) hard_link = false
+[2023-04-14T23:48:50.083986 31016] Config: (default) hash_dir = true
+[2023-04-14T23:48:50.083986 31016] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:50.083986 31016] Config: (default) ignore_options = 
+[2023-04-14T23:48:50.083986 31016] Config: (default) inode_cache = false
+[2023-04-14T23:48:50.083986 31016] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:50.083986 31016] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:50.083986 31016] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:50.083986 31016] Config: (default) max_files = 0
+[2023-04-14T23:48:50.083986 31016] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:50.083986 31016] Config: (default) namespace = 
+[2023-04-14T23:48:50.083986 31016] Config: (default) path = 
+[2023-04-14T23:48:50.083986 31016] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:50.083986 31016] Config: (default) prefix_command = 
+[2023-04-14T23:48:50.083986 31016] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:50.083986 31016] Config: (default) read_only = false
+[2023-04-14T23:48:50.083986 31016] Config: (default) read_only_direct = false
+[2023-04-14T23:48:50.083986 31016] Config: (default) recache = false
+[2023-04-14T23:48:50.083986 31016] Config: (default) reshare = false
+[2023-04-14T23:48:50.083986 31016] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:50.083986 31016] Config: (default) secondary_storage = 
+[2023-04-14T23:48:50.083986 31016] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:50.083986 31016] Config: (default) stats = true
+[2023-04-14T23:48:50.083986 31016] Config: (default) stats_log = 
+[2023-04-14T23:48:50.083986 31016] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:50.083986 31016] Config: (default) umask = 
+[2023-04-14T23:48:50.084996 31016] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.pygame.colordict.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src module.pygame.colordict.c
+[2023-04-14T23:48:50.085983 36408] Got result key from manifest
+[2023-04-14T23:48:50.085983 36408] Retrieved 25985n967ht4q2v80mjoh4kqv1ig1srfa from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/5/985n967ht4q2v80mjoh4kqv1ig1srfaR)
+[2023-04-14T23:48:50.086980 36408] Reading embedded entry #0 .o (25638 bytes)
+[2023-04-14T23:48:50.086980 36408] Writing to module.pkg_resources-postLoad.o
+[2023-04-14T23:48:50.092962 36408] Succeeded getting cached result
+[2023-04-14T23:48:50.092962 36408] Result: direct_cache_hit
+[2023-04-14T23:48:50.092962 36408] Result: primary_storage_hit
+[2023-04-14T23:48:50.092962 31016] Hostname: Optiplex5050
+[2023-04-14T23:48:50.092962 31016] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:50.092962 31016] Compiler type: gcc
+[2023-04-14T23:48:50.092962 36408] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/8/stats.lock
+[2023-04-14T23:48:50.093959 31016] Source file: module.pygame.colordict.c
+[2023-04-14T23:48:50.093959 31016] Object file: module.pygame.colordict.o
+[2023-04-14T23:48:50.093959 31016] Trying direct lookup
+[2023-04-14T23:48:50.093959 31016] Retrieved e0b4mrm8m9lns3ng1rbqq65s8vkmk9rf2 from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/0/b4mrm8m9lns3ng1rbqq65s8vkmk9rf2M)
+[2023-04-14T23:48:50.093959 31016] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/0/b4mrm8m9lns3ng1rbqq65s8vkmk9rf2M
+[2023-04-14T23:48:50.096951 41632] Hostname: Optiplex5050
+[2023-04-14T23:48:50.096951 41632] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:50.096951 41632] Compiler type: gcc
+[2023-04-14T23:48:50.096951 41632] Source file: module.pygame.c
+[2023-04-14T23:48:50.096951 41632] Object file: module.pygame.o
+[2023-04-14T23:48:50.096951 41632] Trying direct lookup
+[2023-04-14T23:48:50.106924 36408] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/8/stats.lock
+[2023-04-14T23:48:50.106924 41632] Retrieved ea62n8jptcqo9j2ebe6op1sb4980lo21a from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/a/62n8jptcqo9j2ebe6op1sb4980lo21aM)
+[2023-04-14T23:48:50.114903 41632] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/a/62n8jptcqo9j2ebe6op1sb4980lo21aM
+[2023-04-14T23:48:50.189703 37772] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:50.189703 37772] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:50.189703 37772] Config: (default) base_dir = 
+[2023-04-14T23:48:50.189703 37772] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:50.189703 37772] Config: (default) compiler = 
+[2023-04-14T23:48:50.189703 37772] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:50.189703 37772] Config: (default) compiler_type = auto
+[2023-04-14T23:48:50.189703 37772] Config: (default) compression = true
+[2023-04-14T23:48:50.189703 37772] Config: (default) compression_level = 0
+[2023-04-14T23:48:50.189703 37772] Config: (default) cpp_extension = 
+[2023-04-14T23:48:50.189703 37772] Config: (default) debug = false
+[2023-04-14T23:48:50.189703 37772] Config: (default) debug_dir = 
+[2023-04-14T23:48:50.189703 37772] Config: (default) depend_mode = false
+[2023-04-14T23:48:50.189703 37772] Config: (default) direct_mode = true
+[2023-04-14T23:48:50.189703 37772] Config: (default) disable = false
+[2023-04-14T23:48:50.189703 37772] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:50.189703 37772] Config: (default) file_clone = false
+[2023-04-14T23:48:50.189703 37772] Config: (default) hard_link = false
+[2023-04-14T23:48:50.189703 37772] Config: (default) hash_dir = true
+[2023-04-14T23:48:50.189703 37772] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:50.189703 37772] Config: (default) ignore_options = 
+[2023-04-14T23:48:50.189703 37772] Config: (default) inode_cache = false
+[2023-04-14T23:48:50.189703 37772] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:50.189703 37772] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:50.189703 37772] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:50.189703 37772] Config: (default) max_files = 0
+[2023-04-14T23:48:50.189703 37772] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:50.189703 37772] Config: (default) namespace = 
+[2023-04-14T23:48:50.189703 37772] Config: (default) path = 
+[2023-04-14T23:48:50.189703 37772] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:50.189703 37772] Config: (default) prefix_command = 
+[2023-04-14T23:48:50.189703 37772] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:50.189703 37772] Config: (default) read_only = false
+[2023-04-14T23:48:50.189703 37772] Config: (default) read_only_direct = false
+[2023-04-14T23:48:50.189703 37772] Config: (default) recache = false
+[2023-04-14T23:48:50.189703 37772] Config: (default) reshare = false
+[2023-04-14T23:48:50.189703 37772] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:50.189703 37772] Config: (default) secondary_storage = 
+[2023-04-14T23:48:50.189703 37772] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:50.189703 37772] Config: (default) stats = true
+[2023-04-14T23:48:50.189703 37772] Config: (default) stats_log = 
+[2023-04-14T23:48:50.189703 37772] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:50.189703 37772] Config: (default) umask = 
+[2023-04-14T23:48:50.189703 37772] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.pygame.cursors.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src module.pygame.cursors.c
+[2023-04-14T23:48:50.207654 37772] Hostname: Optiplex5050
+[2023-04-14T23:48:50.207654 37772] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:50.207654 37772] Compiler type: gcc
+[2023-04-14T23:48:50.208652 37772] Source file: module.pygame.cursors.c
+[2023-04-14T23:48:50.208652 37772] Object file: module.pygame.cursors.o
+[2023-04-14T23:48:50.208652 37772] Trying direct lookup
+[2023-04-14T23:48:50.209650 37772] Retrieved 57466gae66ih2q49f7p2s6cs5a85tldnm from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/7/466gae66ih2q49f7p2s6cs5a85tldnmM)
+[2023-04-14T23:48:50.209650 37772] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/7/466gae66ih2q49f7p2s6cs5a85tldnmM
+[2023-04-14T23:48:50.246550 31016] Got result key from manifest
+[2023-04-14T23:48:50.246550 31016] Retrieved f8b6tnv13omm0sqourl6ou0m3414ru53s from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/8/b6tnv13omm0sqourl6ou0m3414ru53sR)
+[2023-04-14T23:48:50.247548 31016] Reading embedded entry #0 .o (6086 bytes)
+[2023-04-14T23:48:50.247548 31016] Writing to module.pygame.colordict.o
+[2023-04-14T23:48:50.256524 6780 ] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) base_dir = 
+[2023-04-14T23:48:50.256524 6780 ] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) compiler = 
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) compiler_type = auto
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) compression = true
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) compression_level = 0
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) cpp_extension = 
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) debug = false
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) debug_dir = 
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) depend_mode = false
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) direct_mode = true
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) disable = false
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) file_clone = false
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) hard_link = false
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) hash_dir = true
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) ignore_options = 
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) inode_cache = false
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:50.256524 6780 ] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) max_files = 0
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) namespace = 
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) path = 
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) prefix_command = 
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) read_only = false
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) read_only_direct = false
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) recache = false
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) reshare = false
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) secondary_storage = 
+[2023-04-14T23:48:50.256524 6780 ] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) stats = true
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) stats_log = 
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:50.256524 6780 ] Config: (default) umask = 
+[2023-04-14T23:48:50.256524 6780 ] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.pygame.fastevent.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src module.pygame.fastevent.c
+[2023-04-14T23:48:50.260513 41632] Got result key from manifest
+[2023-04-14T23:48:50.260513 41632] Retrieved 96b2tm3lmgti0ln8bmq7adqrapmbtemju from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/6/b2tm3lmgti0ln8bmq7adqrapmbtemjuR)
+[2023-04-14T23:48:50.262507 6780 ] Hostname: Optiplex5050
+[2023-04-14T23:48:50.262507 6780 ] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:50.262507 6780 ] Compiler type: gcc
+[2023-04-14T23:48:50.263505 6780 ] Source file: module.pygame.fastevent.c
+[2023-04-14T23:48:50.263505 6780 ] Object file: module.pygame.fastevent.o
+[2023-04-14T23:48:50.263505 6780 ] Trying direct lookup
+[2023-04-14T23:48:50.263505 6780 ] Retrieved 0eeeesdip2tar4em3erh330bam0esfbt0 from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/e/eeesdip2tar4em3erh330bam0esfbt0M)
+[2023-04-14T23:48:50.263505 6780 ] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/e/eeesdip2tar4em3erh330bam0esfbt0M
+[2023-04-14T23:48:50.265500 41632] Reading embedded entry #0 .o (101148 bytes)
+[2023-04-14T23:48:50.265500 41632] Writing to module.pygame.o
+[2023-04-14T23:48:50.268501 31016] Succeeded getting cached result
+[2023-04-14T23:48:50.268501 31016] Result: direct_cache_hit
+[2023-04-14T23:48:50.268501 31016] Result: primary_storage_hit
+[2023-04-14T23:48:50.269493 41632] Succeeded getting cached result
+[2023-04-14T23:48:50.270491 41632] Result: direct_cache_hit
+[2023-04-14T23:48:50.270491 41632] Result: primary_storage_hit
+[2023-04-14T23:48:50.274476 41632] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/0/stats.lock
+[2023-04-14T23:48:50.280459 31016] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/8/stats.lock
+[2023-04-14T23:48:50.292428 31016] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/8/stats.lock
+[2023-04-14T23:48:50.295419 41632] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/0/stats.lock
+[2023-04-14T23:48:50.356259 37772] Got result key from manifest
+[2023-04-14T23:48:50.356259 37772] Retrieved b6187mq7qetdbriaihdo7n6j4qopn8s02 from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/6/187mq7qetdbriaihdo7n6j4qopn8s02R)
+[2023-04-14T23:48:50.370221 37772] Reading embedded entry #0 .o (103529 bytes)
+[2023-04-14T23:48:50.370221 37772] Writing to module.pygame.cursors.o
+[2023-04-14T23:48:50.379199 37772] Succeeded getting cached result
+[2023-04-14T23:48:50.380195 37772] Result: direct_cache_hit
+[2023-04-14T23:48:50.380195 37772] Result: primary_storage_hit
+[2023-04-14T23:48:50.393159 37772] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/c/stats.lock
+[2023-04-14T23:48:50.409119 37772] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/c/stats.lock
+[2023-04-14T23:48:50.412109 6780 ] Got result key from manifest
+[2023-04-14T23:48:50.413105 6780 ] Retrieved 3b2f3t4ueu8lecjgd333vva1udati6bv6 from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/b/2f3t4ueu8lecjgd333vva1udati6bv6R)
+[2023-04-14T23:48:50.415100 6780 ] Reading embedded entry #0 .o (22828 bytes)
+[2023-04-14T23:48:50.415100 6780 ] Writing to module.pygame.fastevent.o
+[2023-04-14T23:48:50.423079 6780 ] Succeeded getting cached result
+[2023-04-14T23:48:50.423079 6780 ] Result: direct_cache_hit
+[2023-04-14T23:48:50.424076 6780 ] Result: primary_storage_hit
+[2023-04-14T23:48:50.428066 6780 ] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/c/stats.lock
+[2023-04-14T23:48:50.440033 6780 ] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/c/stats.lock
+[2023-04-14T23:48:50.463969 13516] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:50.463969 13516] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:50.463969 13516] Config: (default) base_dir = 
+[2023-04-14T23:48:50.463969 13516] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:50.463969 13516] Config: (default) compiler = 
+[2023-04-14T23:48:50.463969 13516] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:50.463969 13516] Config: (default) compiler_type = auto
+[2023-04-14T23:48:50.463969 13516] Config: (default) compression = true
+[2023-04-14T23:48:50.463969 13516] Config: (default) compression_level = 0
+[2023-04-14T23:48:50.463969 13516] Config: (default) cpp_extension = 
+[2023-04-14T23:48:50.463969 13516] Config: (default) debug = false
+[2023-04-14T23:48:50.463969 13516] Config: (default) debug_dir = 
+[2023-04-14T23:48:50.463969 13516] Config: (default) depend_mode = false
+[2023-04-14T23:48:50.463969 13516] Config: (default) direct_mode = true
+[2023-04-14T23:48:50.463969 13516] Config: (default) disable = false
+[2023-04-14T23:48:50.463969 13516] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:50.463969 13516] Config: (default) file_clone = false
+[2023-04-14T23:48:50.463969 13516] Config: (default) hard_link = false
+[2023-04-14T23:48:50.463969 13516] Config: (default) hash_dir = true
+[2023-04-14T23:48:50.463969 13516] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:50.463969 13516] Config: (default) ignore_options = 
+[2023-04-14T23:48:50.463969 13516] Config: (default) inode_cache = false
+[2023-04-14T23:48:50.463969 13516] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:50.463969 13516] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:50.463969 13516] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:50.463969 13516] Config: (default) max_files = 0
+[2023-04-14T23:48:50.463969 13516] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:50.463969 13516] Config: (default) namespace = 
+[2023-04-14T23:48:50.463969 13516] Config: (default) path = 
+[2023-04-14T23:48:50.463969 13516] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:50.463969 13516] Config: (default) prefix_command = 
+[2023-04-14T23:48:50.463969 13516] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:50.463969 13516] Config: (default) read_only = false
+[2023-04-14T23:48:50.463969 13516] Config: (default) read_only_direct = false
+[2023-04-14T23:48:50.463969 13516] Config: (default) recache = false
+[2023-04-14T23:48:50.463969 13516] Config: (default) reshare = false
+[2023-04-14T23:48:50.463969 13516] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:50.463969 13516] Config: (default) secondary_storage = 
+[2023-04-14T23:48:50.463969 13516] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:50.463969 13516] Config: (default) stats = true
+[2023-04-14T23:48:50.463969 13516] Config: (default) stats_log = 
+[2023-04-14T23:48:50.463969 13516] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:50.463969 13516] Config: (default) umask = 
+[2023-04-14T23:48:50.463969 13516] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.pygame.ftfont.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src module.pygame.ftfont.c
+[2023-04-14T23:48:50.472945 13516] Hostname: Optiplex5050
+[2023-04-14T23:48:50.472945 13516] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:50.472945 13516] Compiler type: gcc
+[2023-04-14T23:48:50.472945 13516] Source file: module.pygame.ftfont.c
+[2023-04-14T23:48:50.472945 13516] Object file: module.pygame.ftfont.o
+[2023-04-14T23:48:50.472945 13516] Trying direct lookup
+[2023-04-14T23:48:50.473943 13516] Retrieved 50e5s7g2bpeq2301l9o78r2qb4qnq6tb2 from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/0/e5s7g2bpeq2301l9o78r2qb4qnq6tb2M)
+[2023-04-14T23:48:50.473943 13516] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/0/e5s7g2bpeq2301l9o78r2qb4qnq6tb2M
+[2023-04-14T23:48:50.501867 44088] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:50.501867 44088] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:50.501867 44088] Config: (default) base_dir = 
+[2023-04-14T23:48:50.501867 44088] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:50.501867 44088] Config: (default) compiler = 
+[2023-04-14T23:48:50.501867 44088] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:50.501867 44088] Config: (default) compiler_type = auto
+[2023-04-14T23:48:50.501867 44088] Config: (default) compression = true
+[2023-04-14T23:48:50.501867 44088] Config: (default) compression_level = 0
+[2023-04-14T23:48:50.501867 44088] Config: (default) cpp_extension = 
+[2023-04-14T23:48:50.501867 44088] Config: (default) debug = false
+[2023-04-14T23:48:50.501867 44088] Config: (default) debug_dir = 
+[2023-04-14T23:48:50.501867 44088] Config: (default) depend_mode = false
+[2023-04-14T23:48:50.501867 44088] Config: (default) direct_mode = true
+[2023-04-14T23:48:50.501867 44088] Config: (default) disable = false
+[2023-04-14T23:48:50.501867 44088] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:50.501867 44088] Config: (default) file_clone = false
+[2023-04-14T23:48:50.501867 44088] Config: (default) hard_link = false
+[2023-04-14T23:48:50.501867 44088] Config: (default) hash_dir = true
+[2023-04-14T23:48:50.501867 44088] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:50.501867 44088] Config: (default) ignore_options = 
+[2023-04-14T23:48:50.501867 44088] Config: (default) inode_cache = false
+[2023-04-14T23:48:50.501867 44088] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:50.501867 44088] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:50.501867 44088] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:50.501867 44088] Config: (default) max_files = 0
+[2023-04-14T23:48:50.501867 44088] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:50.501867 44088] Config: (default) namespace = 
+[2023-04-14T23:48:50.501867 44088] Config: (default) path = 
+[2023-04-14T23:48:50.501867 44088] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:50.501867 44088] Config: (default) prefix_command = 
+[2023-04-14T23:48:50.501867 44088] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:50.501867 44088] Config: (default) read_only = false
+[2023-04-14T23:48:50.501867 44088] Config: (default) read_only_direct = false
+[2023-04-14T23:48:50.501867 44088] Config: (default) recache = false
+[2023-04-14T23:48:50.501867 44088] Config: (default) reshare = false
+[2023-04-14T23:48:50.501867 44088] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:50.501867 44088] Config: (default) secondary_storage = 
+[2023-04-14T23:48:50.501867 44088] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:50.501867 44088] Config: (default) stats = true
+[2023-04-14T23:48:50.501867 44088] Config: (default) stats_log = 
+[2023-04-14T23:48:50.501867 44088] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:50.501867 44088] Config: (default) umask = 
+[2023-04-14T23:48:50.501867 44088] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.pygame.macosx.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src module.pygame.macosx.c
+[2023-04-14T23:48:50.508849 44088] Hostname: Optiplex5050
+[2023-04-14T23:48:50.508849 44088] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:50.508849 44088] Compiler type: gcc
+[2023-04-14T23:48:50.509847 44088] Source file: module.pygame.macosx.c
+[2023-04-14T23:48:50.509847 44088] Object file: module.pygame.macosx.o
+[2023-04-14T23:48:50.509847 44088] Trying direct lookup
+[2023-04-14T23:48:50.509847 44088] Retrieved dd6a98kb8aldcvt7k94khqmaf752a50co from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/d/6a98kb8aldcvt7k94khqmaf752a50coM)
+[2023-04-14T23:48:50.509847 44088] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/d/6a98kb8aldcvt7k94khqmaf752a50coM
+[2023-04-14T23:48:50.537775 42504] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:50.537775 42504] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:50.537775 42504] Config: (default) base_dir = 
+[2023-04-14T23:48:50.537775 42504] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:50.537775 42504] Config: (default) compiler = 
+[2023-04-14T23:48:50.537775 42504] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:50.537775 42504] Config: (default) compiler_type = auto
+[2023-04-14T23:48:50.537775 42504] Config: (default) compression = true
+[2023-04-14T23:48:50.537775 42504] Config: (default) compression_level = 0
+[2023-04-14T23:48:50.537775 42504] Config: (default) cpp_extension = 
+[2023-04-14T23:48:50.537775 42504] Config: (default) debug = false
+[2023-04-14T23:48:50.537775 42504] Config: (default) debug_dir = 
+[2023-04-14T23:48:50.537775 42504] Config: (default) depend_mode = false
+[2023-04-14T23:48:50.537775 42504] Config: (default) direct_mode = true
+[2023-04-14T23:48:50.537775 42504] Config: (default) disable = false
+[2023-04-14T23:48:50.537775 42504] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:50.537775 42504] Config: (default) file_clone = false
+[2023-04-14T23:48:50.537775 42504] Config: (default) hard_link = false
+[2023-04-14T23:48:50.537775 42504] Config: (default) hash_dir = true
+[2023-04-14T23:48:50.537775 42504] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:50.537775 42504] Config: (default) ignore_options = 
+[2023-04-14T23:48:50.537775 42504] Config: (default) inode_cache = false
+[2023-04-14T23:48:50.537775 42504] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:50.537775 42504] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:50.537775 42504] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:50.537775 42504] Config: (default) max_files = 0
+[2023-04-14T23:48:50.537775 42504] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:50.537775 42504] Config: (default) namespace = 
+[2023-04-14T23:48:50.537775 42504] Config: (default) path = 
+[2023-04-14T23:48:50.537775 42504] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:50.537775 42504] Config: (default) prefix_command = 
+[2023-04-14T23:48:50.537775 42504] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:50.537775 42504] Config: (default) read_only = false
+[2023-04-14T23:48:50.537775 42504] Config: (default) read_only_direct = false
+[2023-04-14T23:48:50.537775 42504] Config: (default) recache = false
+[2023-04-14T23:48:50.537775 42504] Config: (default) reshare = false
+[2023-04-14T23:48:50.537775 42504] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:50.537775 42504] Config: (default) secondary_storage = 
+[2023-04-14T23:48:50.537775 42504] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:50.537775 42504] Config: (default) stats = true
+[2023-04-14T23:48:50.537775 42504] Config: (default) stats_log = 
+[2023-04-14T23:48:50.537775 42504] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:50.537775 42504] Config: (default) umask = 
+[2023-04-14T23:48:50.537775 42504] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.pygame.pkgdata.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src module.pygame.pkgdata.c
+[2023-04-14T23:48:50.545751 42504] Hostname: Optiplex5050
+[2023-04-14T23:48:50.545751 42504] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:50.545751 42504] Compiler type: gcc
+[2023-04-14T23:48:50.546748 42504] Source file: module.pygame.pkgdata.c
+[2023-04-14T23:48:50.546748 42504] Object file: module.pygame.pkgdata.o
+[2023-04-14T23:48:50.546748 42504] Trying direct lookup
+[2023-04-14T23:48:50.546748 42504] Retrieved 8640pogguh5nosct2qvdfjt5bap7nhmb0 from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/6/40pogguh5nosct2qvdfjt5bap7nhmb0M)
+[2023-04-14T23:48:50.546748 42504] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/6/40pogguh5nosct2qvdfjt5bap7nhmb0M
+[2023-04-14T23:48:50.604597 36156] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:50.604597 36156] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:50.604597 36156] Config: (default) base_dir = 
+[2023-04-14T23:48:50.604597 36156] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:50.604597 36156] Config: (default) compiler = 
+[2023-04-14T23:48:50.604597 36156] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:50.604597 36156] Config: (default) compiler_type = auto
+[2023-04-14T23:48:50.604597 36156] Config: (default) compression = true
+[2023-04-14T23:48:50.604597 36156] Config: (default) compression_level = 0
+[2023-04-14T23:48:50.604597 36156] Config: (default) cpp_extension = 
+[2023-04-14T23:48:50.604597 36156] Config: (default) debug = false
+[2023-04-14T23:48:50.604597 36156] Config: (default) debug_dir = 
+[2023-04-14T23:48:50.604597 36156] Config: (default) depend_mode = false
+[2023-04-14T23:48:50.604597 36156] Config: (default) direct_mode = true
+[2023-04-14T23:48:50.604597 36156] Config: (default) disable = false
+[2023-04-14T23:48:50.604597 36156] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:50.604597 36156] Config: (default) file_clone = false
+[2023-04-14T23:48:50.604597 36156] Config: (default) hard_link = false
+[2023-04-14T23:48:50.604597 36156] Config: (default) hash_dir = true
+[2023-04-14T23:48:50.604597 36156] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:50.604597 36156] Config: (default) ignore_options = 
+[2023-04-14T23:48:50.604597 36156] Config: (default) inode_cache = false
+[2023-04-14T23:48:50.604597 36156] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:50.604597 36156] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:50.604597 36156] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:50.604597 36156] Config: (default) max_files = 0
+[2023-04-14T23:48:50.604597 36156] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:50.604597 36156] Config: (default) namespace = 
+[2023-04-14T23:48:50.604597 36156] Config: (default) path = 
+[2023-04-14T23:48:50.604597 36156] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:50.604597 36156] Config: (default) prefix_command = 
+[2023-04-14T23:48:50.604597 36156] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:50.604597 36156] Config: (default) read_only = false
+[2023-04-14T23:48:50.604597 36156] Config: (default) read_only_direct = false
+[2023-04-14T23:48:50.604597 36156] Config: (default) recache = false
+[2023-04-14T23:48:50.604597 36156] Config: (default) reshare = false
+[2023-04-14T23:48:50.604597 36156] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:50.604597 36156] Config: (default) secondary_storage = 
+[2023-04-14T23:48:50.604597 36156] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:50.604597 36156] Config: (default) stats = true
+[2023-04-14T23:48:50.604597 36156] Config: (default) stats_log = 
+[2023-04-14T23:48:50.604597 36156] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:50.604597 36156] Config: (default) umask = 
+[2023-04-14T23:48:50.605590 36156] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.pygame.sndarray.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src module.pygame.sndarray.c
+[2023-04-14T23:48:50.612572 36156] Hostname: Optiplex5050
+[2023-04-14T23:48:50.612572 36156] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:50.612572 36156] Compiler type: gcc
+[2023-04-14T23:48:50.613569 36156] Source file: module.pygame.sndarray.c
+[2023-04-14T23:48:50.613569 36156] Object file: module.pygame.sndarray.o
+[2023-04-14T23:48:50.613569 36156] Trying direct lookup
+[2023-04-14T23:48:50.613569 36156] Retrieved 65ab7e7kgd3bg5ig9v72qml02pn1aaosc from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/5/ab7e7kgd3bg5ig9v72qml02pn1aaoscM)
+[2023-04-14T23:48:50.616561 36156] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/5/ab7e7kgd3bg5ig9v72qml02pn1aaoscM
+[2023-04-14T23:48:50.649980 13516] Got result key from manifest
+[2023-04-14T23:48:50.649980 13516] Retrieved 27ff2jjuf8lbn8l6682sjf6e98mqop4ce from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/7/ff2jjuf8lbn8l6682sjf6e98mqop4ceR)
+[2023-04-14T23:48:50.687883 13516] Reading embedded entry #0 .o (64166 bytes)
+[2023-04-14T23:48:50.687883 13516] Writing to module.pygame.ftfont.o
+[2023-04-14T23:48:50.688878 13516] Succeeded getting cached result
+[2023-04-14T23:48:50.688878 13516] Result: direct_cache_hit
+[2023-04-14T23:48:50.688878 13516] Result: primary_storage_hit
+[2023-04-14T23:48:50.705832 42504] Got result key from manifest
+[2023-04-14T23:48:50.705832 42504] Retrieved 1deapfrd19oo3ktifqdjbb2s1m5afa58i from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/d/eapfrd19oo3ktifqdjbb2s1m5afa58iR)
+[2023-04-14T23:48:50.705832 42504] Reading embedded entry #0 .o (18565 bytes)
+[2023-04-14T23:48:50.705832 42504] Writing to module.pygame.pkgdata.o
+[2023-04-14T23:48:50.706829 42504] Succeeded getting cached result
+[2023-04-14T23:48:50.706829 42504] Result: direct_cache_hit
+[2023-04-14T23:48:50.706829 42504] Result: primary_storage_hit
+[2023-04-14T23:48:50.706829 42504] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/8/stats.lock
+[2023-04-14T23:48:50.707827 44088] Got result key from manifest
+[2023-04-14T23:48:50.707827 44088] Retrieved ec8ccedupsj9ab63hucce6s5palgvrg4i from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/c/8ccedupsj9ab63hucce6s5palgvrg4iR)
+[2023-04-14T23:48:50.708824 42504] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/8/stats.lock
+[2023-04-14T23:48:50.708824 44088] Reading embedded entry #0 .o (11011 bytes)
+[2023-04-14T23:48:50.708824 44088] Writing to module.pygame.macosx.o
+[2023-04-14T23:48:50.708824 44088] Succeeded getting cached result
+[2023-04-14T23:48:50.709822 44088] Result: direct_cache_hit
+[2023-04-14T23:48:50.709822 44088] Result: primary_storage_hit
+[2023-04-14T23:48:50.709822 44088] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/8/stats.lock
+[2023-04-14T23:48:50.744241 13516] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/c/stats.lock
+[2023-04-14T23:48:50.773164 44088] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/8/stats.lock
+[2023-04-14T23:48:50.825026 13516] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/c/stats.lock
+[2023-04-14T23:48:50.834999 36156] Got result key from manifest
+[2023-04-14T23:48:50.834999 36156] Retrieved 9c81b96qasprka1j4dh6i5abjhcs5gd12 from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/c/81b96qasprka1j4dh6i5abjhcs5gd12R)
+[2023-04-14T23:48:50.835997 36156] Reading embedded entry #0 .o (19004 bytes)
+[2023-04-14T23:48:50.835997 36156] Writing to module.pygame.sndarray.o
+[2023-04-14T23:48:50.843488 36156] Succeeded getting cached result
+[2023-04-14T23:48:50.843488 36156] Result: direct_cache_hit
+[2023-04-14T23:48:50.843488 36156] Result: primary_storage_hit
+[2023-04-14T23:48:50.844486 36156] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/c/stats.lock
+[2023-04-14T23:48:50.908315 36156] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/c/stats.lock
+[2023-04-14T23:48:50.963678 33420] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:50.963678 33420] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:50.963678 33420] Config: (default) base_dir = 
+[2023-04-14T23:48:50.963678 33420] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:50.963678 33420] Config: (default) compiler = 
+[2023-04-14T23:48:50.963678 33420] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:50.963678 33420] Config: (default) compiler_type = auto
+[2023-04-14T23:48:50.963678 33420] Config: (default) compression = true
+[2023-04-14T23:48:50.963678 33420] Config: (default) compression_level = 0
+[2023-04-14T23:48:50.963678 33420] Config: (default) cpp_extension = 
+[2023-04-14T23:48:50.963678 33420] Config: (default) debug = false
+[2023-04-14T23:48:50.963678 33420] Config: (default) debug_dir = 
+[2023-04-14T23:48:50.963678 33420] Config: (default) depend_mode = false
+[2023-04-14T23:48:50.963678 33420] Config: (default) direct_mode = true
+[2023-04-14T23:48:50.963678 33420] Config: (default) disable = false
+[2023-04-14T23:48:50.963678 33420] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:50.963678 33420] Config: (default) file_clone = false
+[2023-04-14T23:48:50.963678 33420] Config: (default) hard_link = false
+[2023-04-14T23:48:50.963678 33420] Config: (default) hash_dir = true
+[2023-04-14T23:48:50.963678 33420] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:50.963678 33420] Config: (default) ignore_options = 
+[2023-04-14T23:48:50.963678 33420] Config: (default) inode_cache = false
+[2023-04-14T23:48:50.963678 33420] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:50.963678 33420] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:50.963678 33420] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:50.963678 33420] Config: (default) max_files = 0
+[2023-04-14T23:48:50.963678 33420] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:50.963678 33420] Config: (default) namespace = 
+[2023-04-14T23:48:50.963678 33420] Config: (default) path = 
+[2023-04-14T23:48:50.963678 33420] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:50.963678 33420] Config: (default) prefix_command = 
+[2023-04-14T23:48:50.963678 33420] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:50.963678 33420] Config: (default) read_only = false
+[2023-04-14T23:48:50.963678 33420] Config: (default) read_only_direct = false
+[2023-04-14T23:48:50.963678 33420] Config: (default) recache = false
+[2023-04-14T23:48:50.963678 33420] Config: (default) reshare = false
+[2023-04-14T23:48:50.963678 33420] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:50.963678 33420] Config: (default) secondary_storage = 
+[2023-04-14T23:48:50.963678 33420] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:50.963678 33420] Config: (default) stats = true
+[2023-04-14T23:48:50.963678 33420] Config: (default) stats_log = 
+[2023-04-14T23:48:50.963678 33420] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:50.963678 33420] Config: (default) umask = 
+[2023-04-14T23:48:50.963678 33420] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.pygame.surfarray.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src module.pygame.surfarray.c
+[2023-04-14T23:48:50.970662 33420] Hostname: Optiplex5050
+[2023-04-14T23:48:50.970662 33420] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:50.970662 33420] Compiler type: gcc
+[2023-04-14T23:48:50.971660 33420] Source file: module.pygame.surfarray.c
+[2023-04-14T23:48:50.971660 33420] Object file: module.pygame.surfarray.o
+[2023-04-14T23:48:50.971660 33420] Trying direct lookup
+[2023-04-14T23:48:50.972660 33420] Retrieved f39feclsfjfg82tgu55mbdlpug7baugt6 from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/3/9feclsfjfg82tgu55mbdlpug7baugt6M)
+[2023-04-14T23:48:50.972660 33420] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/3/9feclsfjfg82tgu55mbdlpug7baugt6M
+[2023-04-14T23:48:51.019531 39160] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:51.019531 39160] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:51.019531 39160] Config: (default) base_dir = 
+[2023-04-14T23:48:51.019531 39160] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:51.019531 39160] Config: (default) compiler = 
+[2023-04-14T23:48:51.019531 39160] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:51.019531 39160] Config: (default) compiler_type = auto
+[2023-04-14T23:48:51.019531 39160] Config: (default) compression = true
+[2023-04-14T23:48:51.019531 39160] Config: (default) compression_level = 0
+[2023-04-14T23:48:51.019531 39160] Config: (default) cpp_extension = 
+[2023-04-14T23:48:51.019531 39160] Config: (default) debug = false
+[2023-04-14T23:48:51.019531 39160] Config: (default) debug_dir = 
+[2023-04-14T23:48:51.019531 39160] Config: (default) depend_mode = false
+[2023-04-14T23:48:51.019531 39160] Config: (default) direct_mode = true
+[2023-04-14T23:48:51.019531 39160] Config: (default) disable = false
+[2023-04-14T23:48:51.019531 39160] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:51.019531 39160] Config: (default) file_clone = false
+[2023-04-14T23:48:51.019531 39160] Config: (default) hard_link = false
+[2023-04-14T23:48:51.019531 39160] Config: (default) hash_dir = true
+[2023-04-14T23:48:51.019531 39160] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:51.019531 39160] Config: (default) ignore_options = 
+[2023-04-14T23:48:51.019531 39160] Config: (default) inode_cache = false
+[2023-04-14T23:48:51.019531 39160] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:51.019531 39160] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:51.019531 39160] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:51.019531 39160] Config: (default) max_files = 0
+[2023-04-14T23:48:51.019531 39160] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:51.019531 39160] Config: (default) namespace = 
+[2023-04-14T23:48:51.019531 39160] Config: (default) path = 
+[2023-04-14T23:48:51.019531 39160] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:51.019531 39160] Config: (default) prefix_command = 
+[2023-04-14T23:48:51.019531 39160] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:51.019531 39160] Config: (default) read_only = false
+[2023-04-14T23:48:51.019531 39160] Config: (default) read_only_direct = false
+[2023-04-14T23:48:51.019531 39160] Config: (default) recache = false
+[2023-04-14T23:48:51.019531 39160] Config: (default) reshare = false
+[2023-04-14T23:48:51.019531 39160] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:51.019531 39160] Config: (default) secondary_storage = 
+[2023-04-14T23:48:51.019531 39160] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:51.019531 39160] Config: (default) stats = true
+[2023-04-14T23:48:51.019531 39160] Config: (default) stats_log = 
+[2023-04-14T23:48:51.019531 39160] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:51.019531 39160] Config: (default) umask = 
+[2023-04-14T23:48:51.019531 39160] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.pygame.sprite.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src module.pygame.sprite.c
+[2023-04-14T23:48:51.027508 39160] Hostname: Optiplex5050
+[2023-04-14T23:48:51.027508 39160] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:51.027508 39160] Compiler type: gcc
+[2023-04-14T23:48:51.027508 39160] Source file: module.pygame.sprite.c
+[2023-04-14T23:48:51.027508 39160] Object file: module.pygame.sprite.o
+[2023-04-14T23:48:51.027508 39160] Trying direct lookup
+[2023-04-14T23:48:51.043465 39160] Retrieved 25e9sid36v2m8pt79c2slooqcdnvf9pdk from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/5/e9sid36v2m8pt79c2slooqcdnvf9pdkM)
+[2023-04-14T23:48:51.043465 39160] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/5/e9sid36v2m8pt79c2slooqcdnvf9pdkM
+[2023-04-14T23:48:51.094329 33420] Got result key from manifest
+[2023-04-14T23:48:51.095326 33420] Retrieved f68bo00rspvn55us2p6khcfa153brjfio from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/6/8bo00rspvn55us2p6khcfa153brjfioR)
+[2023-04-14T23:48:51.095326 33420] Reading embedded entry #0 .o (65401 bytes)
+[2023-04-14T23:48:51.095326 33420] Writing to module.pygame.surfarray.o
+[2023-04-14T23:48:51.096323 33420] Succeeded getting cached result
+[2023-04-14T23:48:51.096323 33420] Result: direct_cache_hit
+[2023-04-14T23:48:51.096323 33420] Result: primary_storage_hit
+[2023-04-14T23:48:51.096323 33420] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/c/stats.lock
+[2023-04-14T23:48:51.097321 42216] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:51.097321 42216] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:51.097321 42216] Config: (default) base_dir = 
+[2023-04-14T23:48:51.097321 42216] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:51.097321 42216] Config: (default) compiler = 
+[2023-04-14T23:48:51.097321 42216] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:51.097321 42216] Config: (default) compiler_type = auto
+[2023-04-14T23:48:51.097321 42216] Config: (default) compression = true
+[2023-04-14T23:48:51.097321 42216] Config: (default) compression_level = 0
+[2023-04-14T23:48:51.097321 42216] Config: (default) cpp_extension = 
+[2023-04-14T23:48:51.097321 42216] Config: (default) debug = false
+[2023-04-14T23:48:51.097321 42216] Config: (default) debug_dir = 
+[2023-04-14T23:48:51.097321 42216] Config: (default) depend_mode = false
+[2023-04-14T23:48:51.097321 42216] Config: (default) direct_mode = true
+[2023-04-14T23:48:51.097321 42216] Config: (default) disable = false
+[2023-04-14T23:48:51.097321 42216] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:51.097321 42216] Config: (default) file_clone = false
+[2023-04-14T23:48:51.097321 42216] Config: (default) hard_link = false
+[2023-04-14T23:48:51.097321 42216] Config: (default) hash_dir = true
+[2023-04-14T23:48:51.097321 42216] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:51.097321 42216] Config: (default) ignore_options = 
+[2023-04-14T23:48:51.097321 42216] Config: (default) inode_cache = false
+[2023-04-14T23:48:51.097321 42216] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:51.097321 42216] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:51.097321 42216] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:51.097321 42216] Config: (default) max_files = 0
+[2023-04-14T23:48:51.097321 42216] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:51.097321 42216] Config: (default) namespace = 
+[2023-04-14T23:48:51.097321 42216] Config: (default) path = 
+[2023-04-14T23:48:51.097321 42216] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:51.097321 42216] Config: (default) prefix_command = 
+[2023-04-14T23:48:51.097321 42216] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:51.097321 42216] Config: (default) read_only = false
+[2023-04-14T23:48:51.097321 42216] Config: (default) read_only_direct = false
+[2023-04-14T23:48:51.097321 42216] Config: (default) recache = false
+[2023-04-14T23:48:51.097321 42216] Config: (default) reshare = false
+[2023-04-14T23:48:51.097321 42216] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:51.097321 42216] Config: (default) secondary_storage = 
+[2023-04-14T23:48:51.097321 42216] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:51.097321 42216] Config: (default) stats = true
+[2023-04-14T23:48:51.097321 42216] Config: (default) stats_log = 
+[2023-04-14T23:48:51.097321 42216] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:51.097321 42216] Config: (default) umask = 
+[2023-04-14T23:48:51.097321 42216] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.pygame.sysfont.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src module.pygame.sysfont.c
+[2023-04-14T23:48:51.106297 42216] Hostname: Optiplex5050
+[2023-04-14T23:48:51.106297 42216] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:51.106297 42216] Compiler type: gcc
+[2023-04-14T23:48:51.107295 42216] Source file: module.pygame.sysfont.c
+[2023-04-14T23:48:51.107295 42216] Object file: module.pygame.sysfont.o
+[2023-04-14T23:48:51.107295 42216] Trying direct lookup
+[2023-04-14T23:48:51.108294 42216] Retrieved f7fdgu4g20651v5v2esl2bf479ti9n3oc from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/7/fdgu4g20651v5v2esl2bf479ti9n3ocM)
+[2023-04-14T23:48:51.108294 42216] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/7/fdgu4g20651v5v2esl2bf479ti9n3ocM
+[2023-04-14T23:48:51.131230 33420] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/c/stats.lock
+[2023-04-14T23:48:51.142201 44432] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:51.142201 44432] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:51.142201 44432] Config: (default) base_dir = 
+[2023-04-14T23:48:51.142201 44432] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:51.142201 44432] Config: (default) compiler = 
+[2023-04-14T23:48:51.142201 44432] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:51.142201 44432] Config: (default) compiler_type = auto
+[2023-04-14T23:48:51.142201 44432] Config: (default) compression = true
+[2023-04-14T23:48:51.142201 44432] Config: (default) compression_level = 0
+[2023-04-14T23:48:51.142201 44432] Config: (default) cpp_extension = 
+[2023-04-14T23:48:51.142201 44432] Config: (default) debug = false
+[2023-04-14T23:48:51.142201 44432] Config: (default) debug_dir = 
+[2023-04-14T23:48:51.142201 44432] Config: (default) depend_mode = false
+[2023-04-14T23:48:51.142201 44432] Config: (default) direct_mode = true
+[2023-04-14T23:48:51.142201 44432] Config: (default) disable = false
+[2023-04-14T23:48:51.142201 44432] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:51.142201 44432] Config: (default) file_clone = false
+[2023-04-14T23:48:51.142201 44432] Config: (default) hard_link = false
+[2023-04-14T23:48:51.142201 44432] Config: (default) hash_dir = true
+[2023-04-14T23:48:51.142201 44432] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:51.142201 44432] Config: (default) ignore_options = 
+[2023-04-14T23:48:51.142201 44432] Config: (default) inode_cache = false
+[2023-04-14T23:48:51.142201 44432] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:51.142201 44432] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:51.142201 44432] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:51.142201 44432] Config: (default) max_files = 0
+[2023-04-14T23:48:51.142201 44432] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:51.142201 44432] Config: (default) namespace = 
+[2023-04-14T23:48:51.142201 44432] Config: (default) path = 
+[2023-04-14T23:48:51.142201 44432] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:51.142201 44432] Config: (default) prefix_command = 
+[2023-04-14T23:48:51.142201 44432] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:51.142201 44432] Config: (default) read_only = false
+[2023-04-14T23:48:51.142201 44432] Config: (default) read_only_direct = false
+[2023-04-14T23:48:51.142201 44432] Config: (default) recache = false
+[2023-04-14T23:48:51.142201 44432] Config: (default) reshare = false
+[2023-04-14T23:48:51.142201 44432] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:51.142201 44432] Config: (default) secondary_storage = 
+[2023-04-14T23:48:51.142201 44432] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:51.142201 44432] Config: (default) stats = true
+[2023-04-14T23:48:51.142201 44432] Config: (default) stats_log = 
+[2023-04-14T23:48:51.142201 44432] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:51.142201 44432] Config: (default) umask = 
+[2023-04-14T23:48:51.142201 44432] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.pygame.threads.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src module.pygame.threads.c
+[2023-04-14T23:48:51.148185 44432] Hostname: Optiplex5050
+[2023-04-14T23:48:51.148185 44432] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:51.148185 44432] Compiler type: gcc
+[2023-04-14T23:48:51.148185 39160] Got result key from manifest
+[2023-04-14T23:48:51.148185 39160] Retrieved 9f66k4gepc0thh9mcm5455r29hnhrr362 from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/f/66k4gepc0thh9mcm5455r29hnhrr362R)
+[2023-04-14T23:48:51.148185 44432] Source file: module.pygame.threads.c
+[2023-04-14T23:48:51.149182 44432] Object file: module.pygame.threads.o
+[2023-04-14T23:48:51.149182 44432] Trying direct lookup
+[2023-04-14T23:48:51.149182 39160] Reading embedded entry #0 .o (387200 bytes)
+[2023-04-14T23:48:51.149182 39160] Writing to module.pygame.sprite.o
+[2023-04-14T23:48:51.149182 44432] Retrieved f444tv9onb15rh2u65750kt3tdklholmi from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/4/44tv9onb15rh2u65750kt3tdklholmiM)
+[2023-04-14T23:48:51.159156 39160] Succeeded getting cached result
+[2023-04-14T23:48:51.160153 39160] Result: direct_cache_hit
+[2023-04-14T23:48:51.160153 39160] Result: primary_storage_hit
+[2023-04-14T23:48:51.162150 44432] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/4/44tv9onb15rh2u65750kt3tdklholmiM
+[2023-04-14T23:48:51.173119 39160] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/8/stats.lock
+[2023-04-14T23:48:51.175113 39160] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/8/stats.lock
+[2023-04-14T23:48:51.248916 42216] Got result key from manifest
+[2023-04-14T23:48:51.248916 42216] Retrieved 0181gq3d1ra81cqjqk8iplni7uth1m664 from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/1/81gq3d1ra81cqjqk8iplni7uth1m664R)
+[2023-04-14T23:48:51.249914 42880] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:51.249914 42880] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:51.249914 42880] Config: (default) base_dir = 
+[2023-04-14T23:48:51.249914 42880] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:51.249914 42880] Config: (default) compiler = 
+[2023-04-14T23:48:51.249914 42880] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:51.249914 42880] Config: (default) compiler_type = auto
+[2023-04-14T23:48:51.249914 42880] Config: (default) compression = true
+[2023-04-14T23:48:51.249914 42880] Config: (default) compression_level = 0
+[2023-04-14T23:48:51.249914 42880] Config: (default) cpp_extension = 
+[2023-04-14T23:48:51.249914 42880] Config: (default) debug = false
+[2023-04-14T23:48:51.249914 42880] Config: (default) debug_dir = 
+[2023-04-14T23:48:51.249914 42880] Config: (default) depend_mode = false
+[2023-04-14T23:48:51.249914 42880] Config: (default) direct_mode = true
+[2023-04-14T23:48:51.249914 42880] Config: (default) disable = false
+[2023-04-14T23:48:51.249914 42880] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:51.249914 42880] Config: (default) file_clone = false
+[2023-04-14T23:48:51.249914 42880] Config: (default) hard_link = false
+[2023-04-14T23:48:51.249914 42880] Config: (default) hash_dir = true
+[2023-04-14T23:48:51.249914 42880] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:51.249914 42880] Config: (default) ignore_options = 
+[2023-04-14T23:48:51.249914 42880] Config: (default) inode_cache = false
+[2023-04-14T23:48:51.249914 42880] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:51.249914 42880] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:51.249914 42880] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:51.249914 42880] Config: (default) max_files = 0
+[2023-04-14T23:48:51.249914 42880] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:51.249914 42880] Config: (default) namespace = 
+[2023-04-14T23:48:51.249914 42880] Config: (default) path = 
+[2023-04-14T23:48:51.249914 42880] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:51.249914 42880] Config: (default) prefix_command = 
+[2023-04-14T23:48:51.249914 42880] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:51.249914 42880] Config: (default) read_only = false
+[2023-04-14T23:48:51.249914 42880] Config: (default) read_only_direct = false
+[2023-04-14T23:48:51.249914 42880] Config: (default) recache = false
+[2023-04-14T23:48:51.249914 42880] Config: (default) reshare = false
+[2023-04-14T23:48:51.249914 42880] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:51.249914 42880] Config: (default) secondary_storage = 
+[2023-04-14T23:48:51.249914 42880] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:51.249914 42880] Config: (default) stats = true
+[2023-04-14T23:48:51.249914 42880] Config: (default) stats_log = 
+[2023-04-14T23:48:51.249914 42880] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:51.249914 42880] Config: (default) umask = 
+[2023-04-14T23:48:51.249914 42880] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.pygame.version.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src module.pygame.version.c
+[2023-04-14T23:48:51.259888 42880] Hostname: Optiplex5050
+[2023-04-14T23:48:51.259888 42880] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:51.259888 42880] Compiler type: gcc
+[2023-04-14T23:48:51.260884 42216] Reading embedded entry #0 .o (121257 bytes)
+[2023-04-14T23:48:51.260884 42216] Writing to module.pygame.sysfont.o
+[2023-04-14T23:48:51.264873 42880] Source file: module.pygame.version.c
+[2023-04-14T23:48:51.265872 42880] Object file: module.pygame.version.o
+[2023-04-14T23:48:51.265872 42880] Trying direct lookup
+[2023-04-14T23:48:51.265872 42216] Succeeded getting cached result
+[2023-04-14T23:48:51.266868 42216] Result: direct_cache_hit
+[2023-04-14T23:48:51.266868 42216] Result: primary_storage_hit
+[2023-04-14T23:48:51.266868 42880] Retrieved a7a7gvkrak4r0dlnc5j99e0u90pvuqp72 from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/7/a7gvkrak4r0dlnc5j99e0u90pvuqp72M)
+[2023-04-14T23:48:51.266868 42880] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/7/a7gvkrak4r0dlnc5j99e0u90pvuqp72M
+[2023-04-14T23:48:51.267866 42216] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/8/stats.lock
+[2023-04-14T23:48:51.290804 42216] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/8/stats.lock
+[2023-04-14T23:48:51.320726 44432] Got result key from manifest
+[2023-04-14T23:48:51.323716 44432] Retrieved 9d26o9dmel77tbie14qspb9v2jtnnuduo from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/d/26o9dmel77tbie14qspb9v2jtnnuduoR)
+[2023-04-14T23:48:51.330696 44432] Reading embedded entry #0 .o (76659 bytes)
+[2023-04-14T23:48:51.330696 44432] Writing to module.pygame.threads.o
+[2023-04-14T23:48:51.331693 44432] Succeeded getting cached result
+[2023-04-14T23:48:51.331693 44432] Result: direct_cache_hit
+[2023-04-14T23:48:51.331693 44432] Result: primary_storage_hit
+[2023-04-14T23:48:51.334686 11388] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:51.334686 11388] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:51.334686 11388] Config: (default) base_dir = 
+[2023-04-14T23:48:51.334686 11388] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:51.334686 11388] Config: (default) compiler = 
+[2023-04-14T23:48:51.334686 11388] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:51.334686 11388] Config: (default) compiler_type = auto
+[2023-04-14T23:48:51.334686 11388] Config: (default) compression = true
+[2023-04-14T23:48:51.334686 11388] Config: (default) compression_level = 0
+[2023-04-14T23:48:51.334686 11388] Config: (default) cpp_extension = 
+[2023-04-14T23:48:51.334686 11388] Config: (default) debug = false
+[2023-04-14T23:48:51.334686 11388] Config: (default) debug_dir = 
+[2023-04-14T23:48:51.334686 11388] Config: (default) depend_mode = false
+[2023-04-14T23:48:51.334686 11388] Config: (default) direct_mode = true
+[2023-04-14T23:48:51.334686 11388] Config: (default) disable = false
+[2023-04-14T23:48:51.334686 11388] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:51.334686 11388] Config: (default) file_clone = false
+[2023-04-14T23:48:51.334686 11388] Config: (default) hard_link = false
+[2023-04-14T23:48:51.334686 11388] Config: (default) hash_dir = true
+[2023-04-14T23:48:51.334686 11388] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:51.334686 11388] Config: (default) ignore_options = 
+[2023-04-14T23:48:51.334686 11388] Config: (default) inode_cache = false
+[2023-04-14T23:48:51.334686 11388] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:51.334686 11388] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:51.334686 11388] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:51.334686 11388] Config: (default) max_files = 0
+[2023-04-14T23:48:51.334686 11388] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:51.334686 11388] Config: (default) namespace = 
+[2023-04-14T23:48:51.334686 11388] Config: (default) path = 
+[2023-04-14T23:48:51.334686 11388] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:51.334686 11388] Config: (default) prefix_command = 
+[2023-04-14T23:48:51.334686 11388] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:51.334686 11388] Config: (default) read_only = false
+[2023-04-14T23:48:51.334686 11388] Config: (default) read_only_direct = false
+[2023-04-14T23:48:51.334686 11388] Config: (default) recache = false
+[2023-04-14T23:48:51.334686 11388] Config: (default) reshare = false
+[2023-04-14T23:48:51.334686 11388] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:51.334686 11388] Config: (default) secondary_storage = 
+[2023-04-14T23:48:51.334686 11388] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:51.334686 11388] Config: (default) stats = true
+[2023-04-14T23:48:51.334686 11388] Config: (default) stats_log = 
+[2023-04-14T23:48:51.334686 11388] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:51.334686 11388] Config: (default) umask = 
+[2023-04-14T23:48:51.334686 11388] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o static_src\MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src static_src\MainProgram.c
+[2023-04-14T23:48:51.342665 11388] Hostname: Optiplex5050
+[2023-04-14T23:48:51.342665 11388] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:51.342665 11388] Compiler type: gcc
+[2023-04-14T23:48:51.343663 11388] Source file: static_src\MainProgram.c
+[2023-04-14T23:48:51.343663 11388] Object file: static_src\MainProgram.o
+[2023-04-14T23:48:51.343663 11388] Trying direct lookup
+[2023-04-14T23:48:51.343663 11388] Retrieved 8b3chdajmel6jf0qpaih86f2eog9mkaqg from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/b/3chdajmel6jf0qpaih86f2eog9mkaqgM)
+[2023-04-14T23:48:51.344660 11388] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/b/3chdajmel6jf0qpaih86f2eog9mkaqgM
+[2023-04-14T23:48:51.396520 44432] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2023-04-14T23:48:51.417466 42880] Got result key from manifest
+[2023-04-14T23:48:51.417466 42880] Retrieved efb6i7nqjp0abjh2rgu0hm1cq0g1p03dm from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/f/b6i7nqjp0abjh2rgu0hm1cq0g1p03dmR)
+[2023-04-14T23:48:51.433422 42880] Reading embedded entry #0 .o (40166 bytes)
+[2023-04-14T23:48:51.433422 42880] Writing to module.pygame.version.o
+[2023-04-14T23:48:51.433422 44432] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2023-04-14T23:48:51.434419 42880] Succeeded getting cached result
+[2023-04-14T23:48:51.467331 42880] Result: direct_cache_hit
+[2023-04-14T23:48:51.467331 42880] Result: primary_storage_hit
+[2023-04-14T23:48:51.476308 42880] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/0/stats.lock
+[2023-04-14T23:48:51.493262 42880] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/0/stats.lock
+[2023-04-14T23:48:51.543129 11388] Got result key from manifest
+[2023-04-14T23:48:51.543129 11388] Retrieved 0812e13bp0fh00i7hjgvdnkf444ntgr4m from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/8/12e13bp0fh00i7hjgvdnkf444ntgr4mR)
+[2023-04-14T23:48:51.544128 11388] Reading embedded entry #0 .o (8717 bytes)
+[2023-04-14T23:48:51.544128 11388] Writing to static_src\MainProgram.o
+[2023-04-14T23:48:51.544128 11388] Succeeded getting cached result
+[2023-04-14T23:48:51.545124 11388] Result: direct_cache_hit
+[2023-04-14T23:48:51.545124 11388] Result: primary_storage_hit
+[2023-04-14T23:48:51.545124 11388] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/c/stats.lock
+[2023-04-14T23:48:51.577038 11388] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/c/stats.lock
+[2023-04-14T23:48:51.840334 45984] === CCACHE 4.6 STARTED =========================================
+[2023-04-14T23:48:51.840334 45984] Config: (default) absolute_paths_in_stderr = false
+[2023-04-14T23:48:51.840334 45984] Config: (default) base_dir = 
+[2023-04-14T23:48:51.840334 45984] Config: (environment) cache_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-04-14T23:48:51.840334 45984] Config: (default) compiler = 
+[2023-04-14T23:48:51.840334 45984] Config: (default) compiler_check = mtime
+[2023-04-14T23:48:51.840334 45984] Config: (default) compiler_type = auto
+[2023-04-14T23:48:51.840334 45984] Config: (default) compression = true
+[2023-04-14T23:48:51.840334 45984] Config: (default) compression_level = 0
+[2023-04-14T23:48:51.840334 45984] Config: (default) cpp_extension = 
+[2023-04-14T23:48:51.840334 45984] Config: (default) debug = false
+[2023-04-14T23:48:51.840334 45984] Config: (default) debug_dir = 
+[2023-04-14T23:48:51.840334 45984] Config: (default) depend_mode = false
+[2023-04-14T23:48:51.840334 45984] Config: (default) direct_mode = true
+[2023-04-14T23:48:51.840334 45984] Config: (default) disable = false
+[2023-04-14T23:48:51.840334 45984] Config: (default) extra_files_to_hash = 
+[2023-04-14T23:48:51.840334 45984] Config: (default) file_clone = false
+[2023-04-14T23:48:51.840334 45984] Config: (default) hard_link = false
+[2023-04-14T23:48:51.840334 45984] Config: (default) hash_dir = true
+[2023-04-14T23:48:51.840334 45984] Config: (default) ignore_headers_in_manifest = 
+[2023-04-14T23:48:51.840334 45984] Config: (default) ignore_options = 
+[2023-04-14T23:48:51.840334 45984] Config: (default) inode_cache = false
+[2023-04-14T23:48:51.840334 45984] Config: (default) keep_comments_cpp = false
+[2023-04-14T23:48:51.840334 45984] Config: (default) limit_multiple = 0.8
+[2023-04-14T23:48:51.840334 45984] Config: (environment) log_file = C:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\main.build\ccache-21644.txt
+[2023-04-14T23:48:51.840334 45984] Config: (default) max_files = 0
+[2023-04-14T23:48:51.840334 45984] Config: (default) max_size = 5.0G
+[2023-04-14T23:48:51.840334 45984] Config: (default) namespace = 
+[2023-04-14T23:48:51.840334 45984] Config: (default) path = 
+[2023-04-14T23:48:51.840334 45984] Config: (default) pch_external_checksum = false
+[2023-04-14T23:48:51.840334 45984] Config: (default) prefix_command = 
+[2023-04-14T23:48:51.840334 45984] Config: (default) prefix_command_cpp = 
+[2023-04-14T23:48:51.840334 45984] Config: (default) read_only = false
+[2023-04-14T23:48:51.840334 45984] Config: (default) read_only_direct = false
+[2023-04-14T23:48:51.840334 45984] Config: (default) recache = false
+[2023-04-14T23:48:51.840334 45984] Config: (default) reshare = false
+[2023-04-14T23:48:51.840334 45984] Config: (default) run_second_cpp = true
+[2023-04-14T23:48:51.840334 45984] Config: (default) secondary_storage = 
+[2023-04-14T23:48:51.840334 45984] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-04-14T23:48:51.840334 45984] Config: (default) stats = true
+[2023-04-14T23:48:51.840334 45984] Config: (default) stats_log = 
+[2023-04-14T23:48:51.840334 45984] Config: (default) temporary_dir = C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-04-14T23:48:51.840334 45984] Config: (default) umask = 
+[2023-04-14T23:48:51.841332 45984] Command line: C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Supervisor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o static_src\CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -D_NUITKA_STANDALONE -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=154 -D_NUITKA_EXE -IC:\Users\Supervisor\AppData\Local\Programs\Python\Python39\include -I. -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\include -IC:\Users\SUPERV~1\PYCHAR~1\PYQTKA~1\venv\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledFunctionType.c
+[2023-04-14T23:48:51.847316 45984] Hostname: Optiplex5050
+[2023-04-14T23:48:51.847316 45984] Working directory: C:/Users/SUPERV~1/PYCHAR~1/PYQTKA~1/main.build
+[2023-04-14T23:48:51.847316 45984] Compiler type: gcc
+[2023-04-14T23:48:51.848313 45984] Source file: static_src\CompiledFunctionType.c
+[2023-04-14T23:48:51.848313 45984] Object file: static_src\CompiledFunctionType.o
+[2023-04-14T23:48:51.848313 45984] Trying direct lookup
+[2023-04-14T23:48:51.849310 45984] Retrieved 35489o548nha63ilnokq3f1ieec69gts2 from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/489o548nha63ilnokq3f1ieec69gts2M)
+[2023-04-14T23:48:51.849310 45984] Looking for result key in C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/5/489o548nha63ilnokq3f1ieec69gts2M
+[2023-04-14T23:48:51.987944 45984] Got result key from manifest
+[2023-04-14T23:48:51.987944 45984] Retrieved acaff614fj0ot6tjh1geck7p9csso29a2 from primary storage (C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/c/aff614fj0ot6tjh1geck7p9csso29a2R)
+[2023-04-14T23:48:51.989934 45984] Reading embedded entry #0 .o (883825 bytes)
+[2023-04-14T23:48:51.989934 45984] Writing to static_src\CompiledFunctionType.o
+[2023-04-14T23:48:51.993924 45984] Succeeded getting cached result
+[2023-04-14T23:48:51.993924 45984] Result: direct_cache_hit
+[2023-04-14T23:48:51.993924 45984] Result: primary_storage_hit
+[2023-04-14T23:48:51.994922 45984] Acquired lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/0/stats.lock
+[2023-04-14T23:48:51.996916 45984] Releasing lock C:\Users\SUPERV~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/0/stats.lock
