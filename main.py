@@ -66,6 +66,8 @@ class game():
 
         self.ball = ball(self)
 
+        self.points = [0, 0]
+
         self.timeMultiplier = 1
         self.speedZone = 300
         self.speedUpTolerance = 0.3
@@ -122,6 +124,16 @@ class game():
         # update ball position
         for i in range(2):
             self.ball.position[i] += self.ball.direction[i] * self.ball.speed * dt
+
+        if self.ball.position[0] < self.boardsMargin + self.boardsSize[0]:
+            self.points[1] += 1
+            self.ball = ball(self)
+            print(self.points)
+
+        if self.ball.position[0] > self.graphics.screenDimension[0] - (self.boardsMargin + self.boardsSize[0]):
+            self.points[0] += 1
+            self.ball = ball(self)
+            print(self.points)
 
         if self.speedZone < self.ball.position[0] < self.graphics.screenDimension[0] - self.speedZone and abs(self.ball.direction[0]) < self.speedUpTolerance:
             self.timeMultiplier = 3
