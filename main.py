@@ -1,6 +1,9 @@
+import json
+import os.path
 import random
 
-from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel
+from PyQt5.QtGui import QFont
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QLineEdit
 import sys
 import pygame
 
@@ -182,12 +185,97 @@ class game():
         pygame.quit()
         del self
 
+class options(QWidget):
+    def __init__(self, context):
+        super().__init__()
+        self.context = context
+
+        self.fieldsValue = {
+            "Graphics": None,
+            "fps": None,
+            "width": None,
+            "height": None
+        }
+
+        self.labels = {}
+        self.lineEdits = {}
+
+        self.initUI()
+        self.show()
+
+    def writeToFile(self, dict):
+        file = open("settings.json", "w")
+        file.write(json.dumps(dict))
+        file.close()
+
+    def loadSettings(self):
+        if not os.path.isfile("settings.json"):
+            self.writeToFile(self.fieldsValue)
+
+        file = open("settings.json", "r")
+        self.fieldsValue = json.load(file)
+        file.close()
+
+    def saveSetting(self, close):
+        for i in self.lineEdits:
+            try:
+                self.fieldsValue[i] = int(self.lineEdits[i].text())
+            except:
+                self.fieldsValue[i] = None
+
+        self.writeToFile(self.fieldsValue)
+
+        if close:
+            self.close()
+
+    def initUI(self):
+        self.dispWidth = 400
+        self.dispHeight = 800
+        self.resize(self.dispWidth, self.dispHeight)
+
+        self.loadSettings()
+
+        heightPointer = 10
+        for i in self.fieldsValue:
+            if i[0].isupper():
+                self.labels[i] = QLabel(self)
+                self.labels[i].setGeometry(10, heightPointer, 300, 60)
+                self.labels[i].setFont(QFont("Courier", 30))
+                self.labels[i].setText(i)
+                heightPointer += 30
+            else:
+                self.labels[i] = QLabel(self)
+                self.labels[i].setGeometry(10, heightPointer, 100, 30)
+                self.labels[i].setText(i)
+
+                self.lineEdits[i] = QLineEdit(self)
+                self.lineEdits[i].setGeometry(120, heightPointer, 100, 30)
+                if self.fieldsValue[i] is not None:
+                    self.lineEdits[i].setText(str(self.fieldsValue[i]))
+
+            heightPointer += 40
+
+        self.btnSave = QPushButton(self)
+        self.btnSave.setText("Zapisz")
+        self.btnSave.setGeometry(10, self.dispHeight - 200, 100, 30)
+        self.btnSave.clicked.connect(lambda : self.saveSetting(False))
+
+        self.btnSaveNExit = QPushButton(self)
+        self.btnSaveNExit.setText("Zapisz i wyjdź")
+        self.btnSaveNExit.setGeometry(120, self.dispHeight - 200, 150, 30)
+        self.btnSaveNExit.clicked.connect(lambda : self.saveSetting(True))
+
+
 class launcher(QWidget):
     (width, height) = (300, 200)
 
     def __init__(self):
         super().__init__()
         self.initUI()
+        self.show()
+
+    def openOptions(self):
+        self.options = options(self)
 
     def startGame(self):
         self.winner = QLabel(self)
@@ -196,14 +284,17 @@ class launcher(QWidget):
         self.game = game(self)
 
     def initUI(self):
-        self.setGeometry(100,100,self.width,self.height)
+        self.resize(self.width,self.height)
 
         self.btnPlay = QPushButton(self)
-        self.btnPlay.setGeometry(10, 10, 50, 30)
+        self.btnPlay.setGeometry(10, 10, 100, 30)
         self.btnPlay.setText("Graj")
         self.btnPlay.clicked.connect(self.startGame)
 
-        self.show()
+        self.btnOptions = QPushButton(self)
+        self.btnOptions.setGeometry(10, 50, 100, 30)
+        self.btnOptions.setText("Ustawienia")
+        self.btnOptions.clicked.connect(self.openOptions)
 
 def main():
     app = QApplication(sys.argv)
