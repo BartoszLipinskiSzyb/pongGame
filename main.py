@@ -14,15 +14,19 @@ class constants():
         "black": (0, 0, 0)
     }
 
+    gameTitle = "Pong"
+
 class graphics():
     def __init__(self, context):
         self.context = context
 
-        self.screenDimension = (1000, 800)
-        self.windowScreenDimension = (1000, 800)
-        self.fps = 120
-        self.isFullscreen = False
-        self.isMouseVisible = False
+        pygame.display.set_caption(constants.gameTitle)
+
+        self.screenDimension = (self.context.options.fieldsValue["width"], self.context.options.fieldsValue["height"])
+        self.windowScreenDimension = self.screenDimension
+        self.fps = self.context.options.fieldsValue["fps"]
+        self.isFullscreen = self.context.options.fieldsValue["fullscreen"]
+        self.isMouseVisible = self.context.options.fieldsValue["cursorVisible"]
 
     def toggleFullscreen(self):
         self.isFullscreen = not self.isFullscreen
@@ -64,8 +68,9 @@ class game():
 
         self.running = True
 
+        self.options = options(self)
+
         self.graphics = graphics(self)
-        self.constants = constants()
 
         self.ball = ball(self)
 
@@ -78,7 +83,7 @@ class game():
         self.boardsPosition = [self.graphics.screenDimension[1] / 2, self.graphics.screenDimension[1] / 2]
         self.boardsSize = (20, 100)
         self.boardsMargin = 20
-        self.boardsSpeed = 0.3
+        self.boardsSpeed = 0.5
         self.boardsDirection = [0, 0]
         self.boardsSpinMultiplier = [1, 1]
 
@@ -190,18 +195,29 @@ class options(QWidget):
         super().__init__()
         self.context = context
 
+        self.fieldsType = {
+            "Graphics": None,
+            "fps": int,
+            "width": int,
+            "height": int,
+            "fullscreen": bool,
+            "cursorVisible": bool
+        }
+
+        # default values
         self.fieldsValue = {
             "Graphics": None,
-            "fps": None,
-            "width": None,
-            "height": None
+            "fps": 60,
+            "width": 1000,
+            "height": 800,
+            "fullscreen": False,
+            "cursorVisible": False
         }
 
         self.labels = {}
         self.lineEdits = {}
 
         self.initUI()
-        self.show()
 
     def writeToFile(self, dict):
         file = open("settings.json", "w")
@@ -219,7 +235,12 @@ class options(QWidget):
     def saveSetting(self, close):
         for i in self.lineEdits:
             try:
-                self.fieldsValue[i] = int(self.lineEdits[i].text())
+                # parsing dynamically to type from fieldsType
+                if self.fieldsType[i] == bool:
+                    # TODO: make fields' qt inputs dependent on a type, e.g. checkbox for bool
+                    self.fieldsValue[i] = self.lineEdits[i].text().lower() == "true"
+                else:
+                    self.fieldsValue[i] = self.fieldsType[i](self.lineEdits[i].text())
             except:
                 self.fieldsValue[i] = None
 
@@ -276,6 +297,7 @@ class launcher(QWidget):
 
     def openOptions(self):
         self.options = options(self)
+        self.options.show()
 
     def startGame(self):
         self.winner = QLabel(self)
@@ -285,6 +307,7 @@ class launcher(QWidget):
 
     def initUI(self):
         self.resize(self.width,self.height)
+        self.setWindowTitle(constants.gameTitle)
 
         self.btnPlay = QPushButton(self)
         self.btnPlay.setGeometry(10, 10, 100, 30)
