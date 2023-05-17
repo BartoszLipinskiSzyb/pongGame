@@ -50,7 +50,7 @@ class ball():
 
         self.position = [self.context.graphics.screenDimension[0]/2, self.context.graphics.screenDimension[1]/2]
         self.size = (20, 20)
-        self.speed = 0.4
+        self.speed = self.context.options.fieldsValue["ballSpeed"]
         self.direction = [[-1, 1][random.randint(0, 1)], [-1, 1][random.randint(0, 1)]]
         self.normalizeDirectionVector()
 
@@ -83,7 +83,7 @@ class game():
         self.boardsPosition = [self.graphics.screenDimension[1] / 2, self.graphics.screenDimension[1] / 2]
         self.boardsSize = (20, 100)
         self.boardsMargin = 20
-        self.boardsSpeed = 0.5
+        self.boardsSpeed = self.context.options.fieldsValue["boardsSpeed"]
         self.boardsDirection = [0, 0]
         self.boardsSpinMultiplier = [1, 1]
 
@@ -201,7 +201,10 @@ class options(QWidget):
             "width": int,
             "height": int,
             "fullscreen": bool,
-            "cursorVisible": bool
+            "cursorVisible": bool,
+            "ballSpeed": float,
+            "boardsSpeed": float,
+            "speedUp": bool
         }
 
         # default values
@@ -211,8 +214,14 @@ class options(QWidget):
             "width": 1000,
             "height": 800,
             "fullscreen": False,
-            "cursorVisible": False
+            "cursorVisible": False,
+            "Game": None,
+            "ballSpeed": 0.4,
+            "boardsSpeed": 0.5,
+            "speedUp": False
         }
+
+        self.fieldsValueDefault = self.fieldsValue
 
         self.labels = {}
         self.lineEdits = {}
@@ -230,19 +239,24 @@ class options(QWidget):
 
         file = open("settings.json", "r")
         self.fieldsValue = json.load(file)
+
+        if not len(self.fieldsValue) == len(self.fieldsValueDefault):
+            self.writeToFile(self.fieldsValueDefault)
+            self.loadSettings()
+
         file.close()
 
     def saveSetting(self, close):
         for i in self.lineEdits:
-            try:
-                # parsing dynamically to type from fieldsType
-                if self.fieldsType[i] == bool:
-                    # TODO: make fields' qt inputs dependent on a type, e.g. checkbox for bool
-                    self.fieldsValue[i] = self.lineEdits[i].text().lower() == "true"
-                else:
+            # parsing dynamically to type from fieldsType
+            if self.fieldsType[i] == bool:
+                # TODO: make fields' qt inputs dependent on a type, e.g. checkbox for bool
+                self.fieldsValue[i] = self.lineEdits[i].text().lower() == "true"
+            else:
+                try:
                     self.fieldsValue[i] = self.fieldsType[i](self.lineEdits[i].text())
-            except:
-                self.fieldsValue[i] = None
+                except ValueError:
+                    self.fieldsValue[i] = self.fieldsValueDefault[i]
 
         self.writeToFile(self.fieldsValue)
 
@@ -263,7 +277,7 @@ class options(QWidget):
                 self.labels[i].setGeometry(10, heightPointer, 300, 60)
                 self.labels[i].setFont(QFont("Courier", 30))
                 self.labels[i].setText(i)
-                heightPointer += 30
+                heightPointer += 20
             else:
                 self.labels[i] = QLabel(self)
                 self.labels[i].setGeometry(10, heightPointer, 100, 30)
@@ -274,7 +288,7 @@ class options(QWidget):
                 if self.fieldsValue[i] is not None:
                     self.lineEdits[i].setText(str(self.fieldsValue[i]))
 
-            heightPointer += 40
+            heightPointer += 30
 
         self.btnSave = QPushButton(self)
         self.btnSave.setText("Zapisz")
@@ -292,6 +306,9 @@ class launcher(QWidget):
 
     def __init__(self):
         super().__init__()
+
+        self.options = options(self)
+
         self.initUI()
         self.show()
 
