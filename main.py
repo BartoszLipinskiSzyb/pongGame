@@ -114,6 +114,12 @@ class game():
         for i in range(2):
             self.boardsPosition[i] += self.boardsSpeed * self.boardsDirection[i] * dt
 
+            # limiting boards to the screen
+            if self.boardsPosition[i] < self.boardsSize[1] / 2:
+                self.boardsPosition[i] = self.boardsSize[1] / 2
+            if self.boardsPosition[i] > self.graphics.screenDimension[1] - (self.boardsSize[1] / 2):
+                self.boardsPosition[i] = self.graphics.screenDimension[1] - (self.boardsSize[1] / 2)
+
         # vertical ball collision with wall
         if (self.ball.position[1] < self.ball.size[1]/2 and self.ball.direction[1] < 0) or (self.ball.position[1] > self.graphics.screenDimension[1] - self.ball.size[1]/2 and self.ball.direction[1] > 0):
             self.ball.direction[1] *= -1
@@ -143,10 +149,11 @@ class game():
             self.ball = ball(self)
             print(self.points)
 
-        if self.speedZone < self.ball.position[0] < self.graphics.screenDimension[0] - self.speedZone and abs(self.ball.direction[0]) < self.speedUpTolerance:
-            self.timeMultiplier = 3
-        else:
-            self.timeMultiplier = 1
+        if self.context.options.fieldsValue["speedUp"]:
+            if self.speedZone < self.ball.position[0] < self.graphics.screenDimension[0] - self.speedZone and abs(self.ball.direction[0]) < self.speedUpTolerance:
+                self.timeMultiplier = 3
+            else:
+                self.timeMultiplier = 1
 
     def gameLoop(self):
         clock = pygame.time.Clock()
