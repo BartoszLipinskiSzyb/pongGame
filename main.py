@@ -62,6 +62,14 @@ class ball():
     def draw(self):
         self.context.drawRect(constants.colors["white"], self.position[0] - self.size[0]/2, self.position[1] - self.size[1]/2, self.size[0], self.size[1])
 
+class images():
+    path = "img/"
+    def __init__(self):
+        self.fastImg = pygame.image.load(self.path + "fast.png")
+        self.numbers = []
+        for i in range(10):
+            self.numbers.append(pygame.image.load(self.path + str(i) + ".png"))
+
 class game():
     def __init__(self, context):
         self.context = context
@@ -71,6 +79,7 @@ class game():
         self.options = options(self)
 
         self.graphics = graphics(self)
+        self.images = images()
 
         self.ball = ball(self)
 
@@ -87,8 +96,6 @@ class game():
         self.boardsDirection = [0, 0]
         self.boardsSpinMultiplier = [1, 1]
 
-        self.fastImg = pygame.image.load("fast.png")
-
         self.graphics.initWindow()
         self.gameLoop()
 
@@ -99,13 +106,18 @@ class game():
         self.drawRect(constants.colors["white"], self.boardsMargin, self.boardsPosition[0] - self.boardsSize[1]/2, self.boardsSize[0], self.boardsSize[1])
         self.drawRect(constants.colors["white"], self.graphics.screenDimension[0] - self.boardsMargin - self.boardsSize[0], self.boardsPosition[1] - self.boardsSize[1]/2, self.boardsSize[0], self.boardsSize[1])
 
+    def drawPoints(self):
+        self.screen.blit(self.images.numbers[self.points[0]], (self.graphics.screenDimension[0] / 2 - 160, 20))
+        self.screen.blit(self.images.numbers[self.points[1]], (self.graphics.screenDimension[0] / 2, 20))
+
     def drawScreen(self):
         self.screen.fill(color=constants.colors["black"])
         self.drawBoards()
         self.ball.draw()
         if self.timeMultiplier > 2:
-            self.screen.blit(self.fastImg, (20, 20))
+            self.screen.blit(self.images.fastImg, (20, 20))
         #self.drawRect(constants.colors["red"], self.ball.position[0], self.ball.position[1], 1, 1)
+        self.drawPoints()
         pygame.display.update()
 
     def updatePositions(self, dt):
@@ -142,12 +154,10 @@ class game():
         if self.ball.position[0] < self.boardsMargin + self.boardsSize[0]:
             self.points[1] += 1
             self.ball = ball(self)
-            print(self.points)
 
         if self.ball.position[0] > self.graphics.screenDimension[0] - (self.boardsMargin + self.boardsSize[0]):
             self.points[0] += 1
             self.ball = ball(self)
-            print(self.points)
 
         if self.context.options.fieldsValue["speedUp"]:
             if self.speedZone < self.ball.position[0] < self.graphics.screenDimension[0] - self.speedZone and abs(self.ball.direction[0]) < self.speedUpTolerance:
