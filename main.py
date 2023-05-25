@@ -120,6 +120,9 @@ class game():
         self.drawPoints()
         pygame.display.update()
 
+    def checkForWin(self):
+        if self.points[0] >= 10 or self.points[0] >= 10:
+            self.timeMultiplier = 0
     def updatePositions(self, dt):
         dt *= self.timeMultiplier
         # update both boards positions
@@ -154,10 +157,12 @@ class game():
         if self.ball.position[0] < self.boardsMargin + self.boardsSize[0]:
             self.points[1] += 1
             self.ball = ball(self)
+            self.checkForWin()
 
         if self.ball.position[0] > self.graphics.screenDimension[0] - (self.boardsMargin + self.boardsSize[0]):
             self.points[0] += 1
             self.ball = ball(self)
+            self.checkForWin()
 
         if self.context.options.fieldsValue["speedUp"]:
             if self.speedZone < self.ball.position[0] < self.graphics.screenDimension[0] - self.speedZone and abs(self.ball.direction[0]) < self.speedUpTolerance:
@@ -200,8 +205,8 @@ class game():
                     if event.key == pygame.K_s:
                         self.boardsDirection[0] += -1
 
-            self.updatePositions(dt)
             self.drawScreen()
+            self.updatePositions(dt)
 
         pygame.display.quit()
         pygame.quit()
