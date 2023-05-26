@@ -278,7 +278,7 @@ class options(QWidget):
         for i in self.lineEdits:
             # parsing dynamically to type from fieldsType
             if self.fieldsType[i] == bool:
-                # TODO: Make fields' qt inputs dependent on a type, e.g. checkbox for bool
+                # TODO: make fields' qt inputs dependent on a type, e.g. checkbox for bool
                 self.fieldsValue[i] = self.lineEdits[i].text().lower() == "true"
             else:
                 try:
