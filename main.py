@@ -3,7 +3,7 @@ import os.path
 import random
 
 from PyQt5.QtGui import QFont
-from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QLineEdit
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QLineEdit, QMessageBox
 import sys
 import pygame
 
@@ -84,6 +84,7 @@ class game():
         self.ball = ball(self)
 
         self.points = [0, 0]
+        self.pointsLimit = 10
 
         self.timeMultiplier = 1
         self.speedZone = 300
@@ -121,8 +122,13 @@ class game():
         pygame.display.update()
 
     def checkForWin(self):
-        if self.points[0] >= 10 or self.points[0] >= 10:
-            self.timeMultiplier = 0
+        if self.points[0] >= self.pointsLimit:
+            self.running = False
+            self.context.showWinInfo("1")
+        elif self.points[1] >= self.pointsLimit:
+            self.running = False
+            self.context.showWinInfo("2")
+
     def updatePositions(self, dt):
         dt *= self.timeMultiplier
         # update both boards positions
@@ -334,6 +340,13 @@ class launcher(QWidget):
         self.initUI()
         self.show()
 
+    def showWinInfo(self, player):
+        # message = QMessageBox()
+        # message.setText("Gracz " + player + " wygrał")
+        # message.setWindowTitle("Koniec gry")
+        # message.show()
+        self.labelWinner.setText("Gracz " + player + " wygrał")
+
     def openOptions(self):
         self.options = options(self)
         self.options.show()
@@ -357,6 +370,9 @@ class launcher(QWidget):
         self.btnOptions.setGeometry(10, 50, 100, 30)
         self.btnOptions.setText("Ustawienia")
         self.btnOptions.clicked.connect(self.openOptions)
+
+        self.labelWinner = QLabel(self)
+        self.labelWinner.setGeometry(10, 90, 180, 30)
 
 def main():
     app = QApplication(sys.argv)
