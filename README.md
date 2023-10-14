@@ -7,7 +7,7 @@ Gra Pong to okienkowa aplikacja napisana w pyQt i pygame, która odwzorowuje jed
 > pip install pyqt5  
 > pip install pygame
  - Uruchom plik *main.py* przy pomocy interpretera Pythona (zalecana wersja: 3.11):
-> cd pongGame
+> cd pongGame  
 > python main.py
 # Jak grać
 Po uruchomieniu pojawia się okienko z przyciskiem *Graj* oraz *Ustawienia*
